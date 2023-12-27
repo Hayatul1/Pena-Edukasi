@@ -44,11 +44,6 @@
 <b:elseif cond='data:view.isSingleItem'/>
     <meta expr:content='data:blog.pageName' property='index:title'/>
 </b:if>
-<b:if cond='data:view.isHomepage'>
-    <meta expr:content='data:blog.title' name='keywords'/>
-<b:elseif cond='data:view.isSingleItem'/>
-    <meta expr:content='data:blog.pageName' name='keywords'/>
-</b:if>
 <b:comment> article:tag </b:comment>
 <b:if cond='data:view.isHomepage'>
     <meta expr:content='data:blog.title' property='article:tag'/> 
@@ -59,11 +54,16 @@
 <b:if cond='data:blog.metaDescription'>
   <meta expr:content='data:blog.metaDescription' name='description'/>
   <meta expr:content='data:blog.metaDescription' property='og:description'/>
-  <meta expr:content='data:blog.metaDescription' name='twitter:description'/>
+  <meta expr:content='data:view.title' name='twitter:description'/>
 <b:else/>
   <meta expr:content='data:view.title' name='description'/>
   <meta expr:content='data:view.title' property='og:description'/>
   <meta expr:content='data:view.title' name='twitter:description'/>
+</b:if>
+<b:if cond='data:view.isHomepage'>
+  <meta content='pendidikan, edukasi, agama, belajar, mengajar, perangkat ajar, buku, simpatika, soal pts, soal UM, PPG, sekolah, universitas, ekonomi, sejarah, tutorial, teknologi, destinasi, news' name='keywords'/>
+<b:elseif cond='data:view.isSingleItem'/>
+   <meta content='pendidikan, edukasi, agama, belajar, mengajar, perangkat ajar, buku, simpatika, soal pts, soal UM, PPG, sekolah, universitas, ekonomi, sejarah, tutorial, teknologi, destinasi, news' name='keywords'/>
 </b:if>
 <meta expr:content='data:view.title' property='og:title'/>
 <meta expr:content='data:view.url' name='permalink'/>
@@ -129,7 +129,6 @@
 <link expr:href='data:blog.homepageUrl.canonical + &quot;feeds/posts/default?alt=rss&quot;' expr:title='data:blog.title + &quot; - RSS&quot;' rel='alternate' type='application/rss+xml'/>
   
 <b:comment>Search</b:comment>
-<link href='style.css' rel='stylesheet'/>
 <link href='https://www.bing.com/search?q=site:penaeducasi.blogspot.com' rel='search'/>
 <link href='https://www.google.com/search?q=site:penaeducasi.blogspot.com' rel='search'/>
 <link href='https://id.search.yahoo.com/search?q=site:penaeducasi.blogspot.com' rel='search'/>
