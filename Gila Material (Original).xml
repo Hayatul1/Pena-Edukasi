@@ -5,7 +5,7 @@
 <script async='async' crossorigin='anonymous' src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6293270434810918'/>
 <b:comment> Viewport </b:comment>
 <meta charset='utf-8'/>
-<meta content='IE=edge' http-equiv='X-UA-Compatible'/>
+<meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'/>
 <meta content='width=device-width, initial-scale=1' name='viewport'/>
 <b:comment> Title </b:comment>
 <b:if cond='data:view.isPost'>
@@ -20,8 +20,6 @@
     <title><data:blog.pageName/></title>
 <b:elseif cond='data:view.search.query'/>
     <title><data:blog.pageName/></title>
-<b:elseif cond='data:view.isError'/>
-    <title><b:switch var='data:blog.locale'><b:case value='id'/>Tidak ditemukan<b:default/>Not Found</b:switch> - <data:blog.title/></title>
 <b:elseif cond='data:view.isMultipleItems and data:blog.pageName == &quot;&quot;'/>
     <title><data:blog.title/></title>
 <b:else/>
@@ -44,6 +42,11 @@
 <b:elseif cond='data:view.isSingleItem'/>
     <meta expr:content='data:blog.pageName' property='index:title'/>
 </b:if>
+<b:if cond='data:view.isHomepage'>
+  <meta content='pendidikan, edukasi, agama, belajar, mengajar, perangkat ajar, buku, simpatika, soal pts, soal UM, PPG, sekolah, universitas, ekonomi, sejarah, tutorial, teknologi, destinasi, news' name='keywords'/>
+<b:elseif cond='data:view.isSingleItem'/>
+   <meta content='pendidikan, edukasi, agama, belajar, mengajar, perangkat ajar, buku, simpatika, soal pts, soal UM, PPG, sekolah, universitas, ekonomi, sejarah, tutorial, teknologi, destinasi, news' name='keywords'/>
+</b:if>
 <b:comment> article:tag </b:comment>
 <b:if cond='data:view.isHomepage'>
     <meta expr:content='data:blog.title' property='article:tag'/> 
@@ -60,11 +63,7 @@
   <meta expr:content='data:view.title' property='og:description'/>
   <meta expr:content='data:view.title' name='twitter:description'/>
 </b:if>
-<b:if cond='data:view.isHomepage'>
-  <meta content='pendidikan, edukasi, agama, belajar, mengajar, perangkat ajar, buku, simpatika, soal pts, soal UM, PPG, sekolah, universitas, ekonomi, sejarah, tutorial, teknologi, destinasi, news' name='keywords'/>
-<b:elseif cond='data:view.isSingleItem'/>
-   <meta content='pendidikan, edukasi, agama, belajar, mengajar, perangkat ajar, buku, simpatika, soal pts, soal UM, PPG, sekolah, universitas, ekonomi, sejarah, tutorial, teknologi, destinasi, news' name='keywords'/>
-</b:if>
+
 <meta expr:content='data:view.title' property='og:title'/>
 <meta expr:content='data:view.url' name='permalink'/>
 <meta expr:content='data:view.url' property='og:url'/>
@@ -93,19 +92,6 @@
   <meta content='LOGO_GAMBAR' property='og:image'/>
   <meta content='LOGO_GAMBAR' name='twitter:image'/>
 </b:if>
-<!-- JSON-LD - structured data markup Google Search -->
-<script type='application/ld+json'>
-{
-  &quot;@context&quot;: &quot;http://schema.org&quot;,
-  &quot;@type&quot;: &quot;WebSite&quot;,
-  &quot;url&quot;: &quot;https://penaeducasi.blogspot.com/&quot;,
-  &quot;potentialAction&quot;: {
-    &quot;@type&quot;: &quot;SearchAction&quot;,
-    &quot;target&quot;: &quot;https://www.google.com/search?q={search_term_string}&quot;,
-    &quot;query-input&quot;: &quot;required name=search&quot;
-  }
-}
-</script>
 
 <b:comment>Blog Feed</b:comment>
 <b:if cond='data:blog.adultContent'>
@@ -127,6 +113,7 @@
 <link expr:href='data:blog.homepageUrl.canonical' rel='openid.delegate'/>
 <link expr:href='data:blog.homepageUrl.canonical + &quot;feeds/posts/default&quot;' expr:title='data:blog.title + &quot; - Atom&quot;' rel='alternate' type='application/atom+xml'/>
 <link expr:href='data:blog.homepageUrl.canonical + &quot;feeds/posts/default?alt=rss&quot;' expr:title='data:blog.title + &quot; - RSS&quot;' rel='alternate' type='application/rss+xml'/>
+<link href='https://www.blogger.com/feeds/415912717773665523/posts/default ' rel='service.post' title='Pena Edukasi - Atom' type='application/atom+xml'/>
   
 <b:comment>Search</b:comment>
 <link href='https://www.bing.com/search?q=site:penaeducasi.blogspot.com' rel='search'/>
@@ -158,6 +145,19 @@
 <meta content='514c04a1aa70397cde95da52b1c3be63cdf7a7abd3e8b95d7b8434e3d99dbdcb' name='ahrefs-site-verification'/>
 <meta content='y231wx8pqc3754dhdooqnojb8p64xl' name='facebook-domain-verification'/>
 <meta content='QlJOdUU0VnduK1VLQTFqN2VkeW1ocTRidjFHSGZoaXhXQ0NRZHk5YWtUaz01' name='dmca-site-verification'/>
+<!-- JSON-LD - structured data markup Google Search -->
+<script type='application/ld+json'>
+{
+  &quot;@context&quot;: &quot;http://schema.org&quot;,
+  &quot;@type&quot;: &quot;WebSite&quot;,
+  &quot;url&quot;: &quot;https://penaeducasi.blogspot.com/&quot;,
+  &quot;potentialAction&quot;: {
+    &quot;@type&quot;: &quot;SearchAction&quot;,
+    &quot;target&quot;: &quot;https://www.google.com/search?q={search_term_string}&quot;,
+    &quot;query-input&quot;: &quot;required name=search&quot;
+  }
+}
+</script>
 
 <b:comment> DNS Prefetch </b:comment>
 <link crossorigin='' href='https://www.blogger.com/' rel='preconnect'/>
@@ -2563,6 +2563,7 @@ h1.entry_title {
     margin:15px;
   }
 }
+
 ]]></b:skin>
 </b:if>
 
