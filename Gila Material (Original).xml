@@ -2,11 +2,22 @@
 <!DOCTYPE html>
 <html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' b:templateUrl='indie.xml' b:templateVersion='1.3.0' expr:dir='data:blog.languageDirection' expr:lang='data:blog.locale' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
 <head>
+<!-- Google tag (gtag.js) -->
+<script async='async' src='https://www.googletagmanager.com/gtag/js?id=G-C73DQWKRDN'/>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag(&#39;js&#39;, new Date());
+
+  gtag(&#39;config&#39;, &#39;G-C73DQWKRDN&#39;);
+</script>
 <script async='async' crossorigin='anonymous' src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6293270434810918'/>
 <b:comment> Viewport </b:comment>
 <meta charset='utf-8'/>
 <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'/>
 <meta content='width=device-width, initial-scale=1' name='viewport'/>
+<meta content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' name='robots'/>
+<meta content='website, navigasi, Nav' name='keywords'/>
 <b:comment> Title </b:comment>
 <b:if cond='data:view.isPost'>
     <title><data:blog.pageName/></title>
@@ -68,12 +79,12 @@
 <meta expr:content='data:view.url' name='permalink'/>
 <meta expr:content='data:view.url' property='og:url'/>
 <meta content='https://penaeducasi.blogspot.com/sitemap.xml' rel='sitemap' type='application/xml'/>
-<meta content='index,follow' name='robots'/>
-<meta content='archive, sitelinkssearchbox' name='robots'/>
-<meta content='snippet, index' name='robots'/>
+<meta content='index, follow' name='googlebot'/>
+<meta content='index, follow' name='bingbot'/>
+<meta content='archive, sitelinkssearchbox' name='googlebot'/>
 <meta content='Pena Edukasi' name='Publisher'/>
+<meta content='penaeducasi.blogspot.com' property='og:sitename'/>
 <meta content='General' name='Rating'/>
-<meta content='site:penaeducasi.blogspot.com' name='search'/>
 <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
 <meta content='gzip' http-equiv='Content-Encoding'/>
 <meta content='max-age=3600' http-equiv='cache-control'/>
@@ -89,7 +100,7 @@
   <meta expr:content='data:blog.postImageUrl' property='og:image'/>
   <meta expr:content='data:blog.postImageUrl' name='twitter:image'/>
 <b:else/>
-  <meta content='LOGO_GAMBAR' property='og:image'/>
+  <meta content='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXFaPPnwrufnEtF5N4PDbAmG3xcpJaubhxZCMtkbwjioEem0NWq2j0HNKKf6lXsN3HyyJ9h2_nhrVJIL2uFlrGuw5EwosDe8eFbSy8H539Y-Mj4FOBOiDVgHR-EkhQ8pn_egunC9eTWii0ve7uD2btUeDPfpHk0_-RfOKbmh6nCEZs7Sk/s1600/PENA%20EDUKASI_waifu2x_photo_noise3_scale%20(2).png' property='og:image'/>
   <meta content='LOGO_GAMBAR' name='twitter:image'/>
 </b:if>
 
@@ -131,13 +142,20 @@
 <meta content='#fffdfc' name='apple-mobile-web-app-status-bar-style'/>
 <meta content='true' name='apple-mobile-web-app-capable'/>
 <meta content='blogger' name='generator'/>
+<meta content='Hayatul Makki' name='owner'/>
+<meta content='Indonesia' name='geo.placename'/>
 <meta content='Sarima' name='author'/>
 <meta content='Sarima' property='article:author'/>
+<meta content='id' name='geo.country'/> 
 <meta content='https://www.facebook.com/sarimah.azizah' property='fb:admins'/>
 <meta content='https://www.facebook.com/sarimah.azizah' property='article:author'/>
 <meta content='https://www.facebook.com/sarimah.azizah' property='article:publisher'/>
-<meta content='@username' name='twitter:site'/>
-<meta content='@username' name='twitter:creator'/> 
+<meta content='@PenaEdukasi' name='twitter:PENA EDUKASI'/>
+<meta content='@PenaEdukasi' name='twitter:PENA EDUKASI'/> 
+<meta content='KIUT3dnONkqwZpMhilbU9u88reeoR_LNxm0HGoDEPys' name='p:domain_verify'/>
+<meta content='VUGD0WyaAUy9x5N7bcpqlQNIWDe3mBVKQSyvoZFFFO8' name='p:domain_verify'/>
+<meta content='KIUT3dnONkqwZpMhilbU9u88reeoR_LNxm0HGoDEPys' name='google-site-verification'/>
+<meta content='RKEahzaePinzVTAp5UuA7KptVYOABxNTPJ4MZ4rSCcw' name='google-site-verification'/>
 <meta content='C2RITP58LSQ8YbZUKQmD49vfB3OP52Y6nR5sOq6ibBc' name='google-site-verification'/>
 <meta content='502324CF55CCD3ACB398A6EB20A26417' name='msvalidate.01'/>
 <meta content='876AFF675A86B42418EEDAB303C1754C' name='msvalidate.01'/>
@@ -145,20 +163,29 @@
 <meta content='514c04a1aa70397cde95da52b1c3be63cdf7a7abd3e8b95d7b8434e3d99dbdcb' name='ahrefs-site-verification'/>
 <meta content='y231wx8pqc3754dhdooqnojb8p64xl' name='facebook-domain-verification'/>
 <meta content='QlJOdUU0VnduK1VLQTFqN2VkeW1ocTRidjFHSGZoaXhXQ0NRZHk5YWtUaz01' name='dmca-site-verification'/>
+<meta content='sha384-nR_rlxe856SaDU1aFtRLp6NHFEHRLcGD6gh93y5zc42E4LM6hDWehhSJDVAxOlzP' name='amp-script-src'/>
 <!-- JSON-LD - structured data markup Google Search -->
-<script type='application/ld+json'>
-{
-  &quot;@context&quot;: &quot;http://schema.org&quot;,
-  &quot;@type&quot;: &quot;WebSite&quot;,
-  &quot;url&quot;: &quot;https://penaeducasi.blogspot.com/&quot;,
-  &quot;potentialAction&quot;: {
-    &quot;@type&quot;: &quot;SearchAction&quot;,
-    &quot;target&quot;: &quot;https://www.google.com/search?q={search_term_string}&quot;,
-    &quot;query-input&quot;: &quot;required name=search&quot;
-  }
-}
-</script>
-
+<script class='yoast-schema-graph' type='application/ld+json'>
+    {
+      &quot;@context&quot;: &quot;http://schema.org&quot;,
+      &quot;@type&quot;: &quot;WebSite&quot;,
+      &quot;url&quot;: &quot;https://penaeducasi.blogspot.com/&quot;,
+      &quot;name&quot;: &quot;Pena Edukasi&quot;,
+      &quot;alternateName&quot;: &quot;Pena Edukasi&quot;,
+      &quot;description&quot;: &quot;Situs web pendidikan yang menyediakan berbagai informasi dan materi edukasi yang terpercaya dan memperioritaskan keamanan bagi pengguna.&quot;,
+      &quot;keywords&quot;: [&quot;pendidikan&quot;, &quot;edukasi&quot;, &quot;agama&quot;, &quot;belajar&quot;, &quot;mengajar&quot;, &quot;perangkat ajar&quot;, &quot;buku&quot;, &quot;soal pts&quot;, &quot;soal UM&quot;, &quot;PPG&quot;, &quot;sekolah&quot;, &quot;universitas&quot;, &quot;ekonomi&quot;, &quot;sejarah&quot;, &quot;tutorial&quot;, &quot;teknologi&quot;, &quot;destinasi&quot;, &quot;news&quot;],
+      &quot;image&quot;: &quot;https://blogger.googleusercontent.com/img/a/AVvXsEiTsSdqqRUu3UBjNCD4EWy0p6_m0Wn0mH_Us92-SIpGcqNtUT82uou7khlw5-kbEDJ8TIYIcqWvLLvjeXpuGEDFblenprpcP_D9i5UxCFkDQH_ZGU60NmXUXDl52orE9t42vkWJ_Y2EOtdMKycY3MOJPfKzXBqnFQimwExtRlYRWEIQddKQb0-2jdlxQ0MJ=s821&quot;,
+      &quot;inLanguage&quot;: &quot;id&quot;,
+      &quot;publisher&quot;: {
+        &quot;@type&quot;: &quot;Organization&quot;,
+        &quot;name&quot;: &quot;Pena Edukasi&quot;,
+        &quot;url&quot;: &quot;https://penaeducasi.blogspot.com/&quot;
+      },
+      &quot;author&quot;: {
+        &quot;@type&quot;: &quot;Person&quot;,
+        &quot;name&quot;: &quot;Sarima&quot;
+    }
+  </script>
 <b:comment> DNS Prefetch </b:comment>
 <link crossorigin='' href='https://www.blogger.com/' rel='preconnect'/>
 <link crossorigin='' href='https://fonts.googleapis.com/' rel='preconnect'/>
@@ -173,190 +200,240 @@
 <link href='https://3.bp.blogspot.com/' rel='dns-prefetch'/>
 <link href='https://4.bp.blogspot.com/' rel='dns-prefetch'/>
 <link href='//lh3.googleusercontent.com' rel='dns-prefetch'/>
-<!-- Yandex.RTB -->
-<script>window.yaContextCb=window.yaContextCb||[]</script>
-<script async='async' src='https://yandex.ru/ads/system/context.js'/>
-<link href='https://raw.githack.com/TahirAhmad01/Android_Css/main/css/h_run.css'/>
-
+<script crossorigin='anonymous' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js'/>
+<link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css' rel='stylesheet'/>
 <style>
-/* Inter */
+/* cyrillic-ext */
 @font-face {
-  font-family: &#39;Inter&#39;;
+  font-family: &#39;Roboto&#39;;
   font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/inter/v11/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2JL7SUc.woff2) format(&#39;woff2&#39;);
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fCRc4EsA.woff2) format(&#39;woff2&#39;);
   unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
+/* cyrillic */
 @font-face {
-  font-family: &#39;Inter&#39;;
+  font-family: &#39;Roboto&#39;;
   font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/inter/v11/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa0ZL7SUc.woff2) format(&#39;woff2&#39;);
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fABc4EsA.woff2) format(&#39;woff2&#39;);
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
+/* greek-ext */
 @font-face {
-  font-family: &#39;Inter&#39;;
+  font-family: &#39;Roboto&#39;;
   font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/inter/v11/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2ZL7SUc.woff2) format(&#39;woff2&#39;);
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fCBc4EsA.woff2) format(&#39;woff2&#39;);
   unicode-range: U+1F00-1FFF;
 }
+/* greek */
 @font-face {
-  font-family: &#39;Inter&#39;;
+  font-family: &#39;Roboto&#39;;
   font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/inter/v11/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1pL7SUc.woff2) format(&#39;woff2&#39;);
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fBxc4EsA.woff2) format(&#39;woff2&#39;);
   unicode-range: U+0370-03FF;
 }
+/* vietnamese */
 @font-face {
-  font-family: &#39;Inter&#39;;
+  font-family: &#39;Roboto&#39;;
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fCxc4EsA.woff2) format(&#39;woff2&#39;);
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: &#39;Roboto&#39;;
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fChc4EsA.woff2) format(&#39;woff2&#39;);
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: &#39;Roboto&#39;;
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fBBc4.woff2) format(&#39;woff2&#39;);
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: &#39;Roboto&#39;;
   font-style: normal;
   font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/inter/v11/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2pL7SUc.woff2) format(&#39;woff2&#39;);
-  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
-}
-@font-face {
-  font-family: &#39;Inter&#39;;
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/inter/v11/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa25L7SUc.woff2) format(&#39;woff2&#39;);
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-@font-face {
-  font-family: &#39;Inter&#39;;
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/inter/v11/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2) format(&#39;woff2&#39;);
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-@font-face {
-  font-family: &#39;Inter&#39;;
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/inter/v11/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2JL7SUc.woff2) format(&#39;woff2&#39;);
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu72xKOzY.woff2) format(&#39;woff2&#39;);
   unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
+/* cyrillic */
 @font-face {
-  font-family: &#39;Inter&#39;;
+  font-family: &#39;Roboto&#39;;
   font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/inter/v11/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa0ZL7SUc.woff2) format(&#39;woff2&#39;);
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu5mxKOzY.woff2) format(&#39;woff2&#39;);
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
+/* greek-ext */
 @font-face {
-  font-family: &#39;Inter&#39;;
+  font-family: &#39;Roboto&#39;;
   font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/inter/v11/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2ZL7SUc.woff2) format(&#39;woff2&#39;);
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7mxKOzY.woff2) format(&#39;woff2&#39;);
   unicode-range: U+1F00-1FFF;
 }
+/* greek */
 @font-face {
-  font-family: &#39;Inter&#39;;
+  font-family: &#39;Roboto&#39;;
   font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/inter/v11/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1pL7SUc.woff2) format(&#39;woff2&#39;);
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4WxKOzY.woff2) format(&#39;woff2&#39;);
   unicode-range: U+0370-03FF;
 }
+/* vietnamese */
 @font-face {
-  font-family: &#39;Inter&#39;;
+  font-family: &#39;Roboto&#39;;
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7WxKOzY.woff2) format(&#39;woff2&#39;);
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: &#39;Roboto&#39;;
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7GxKOzY.woff2) format(&#39;woff2&#39;);
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: &#39;Roboto&#39;;
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.woff2) format(&#39;woff2&#39;);
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: &#39;Roboto&#39;;
   font-style: normal;
   font-weight: 500;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/inter/v11/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2pL7SUc.woff2) format(&#39;woff2&#39;);
-  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
-}
-@font-face {
-  font-family: &#39;Inter&#39;;
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/inter/v11/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa25L7SUc.woff2) format(&#39;woff2&#39;);
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-@font-face {
-  font-family: &#39;Inter&#39;;
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/inter/v11/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2) format(&#39;woff2&#39;);
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-@font-face {
-  font-family: &#39;Inter&#39;;
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/inter/v11/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2JL7SUc.woff2) format(&#39;woff2&#39;);
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fCRc4EsA.woff2) format(&#39;woff2&#39;);
   unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
+/* cyrillic */
 @font-face {
-  font-family: &#39;Inter&#39;;
+  font-family: &#39;Roboto&#39;;
   font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/inter/v11/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa0ZL7SUc.woff2) format(&#39;woff2&#39;);
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fABc4EsA.woff2) format(&#39;woff2&#39;);
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
+/* greek-ext */
 @font-face {
-  font-family: &#39;Inter&#39;;
+  font-family: &#39;Roboto&#39;;
   font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/inter/v11/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2ZL7SUc.woff2) format(&#39;woff2&#39;);
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fCBc4EsA.woff2) format(&#39;woff2&#39;);
   unicode-range: U+1F00-1FFF;
 }
+/* greek */
 @font-face {
-  font-family: &#39;Inter&#39;;
+  font-family: &#39;Roboto&#39;;
   font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/inter/v11/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1pL7SUc.woff2) format(&#39;woff2&#39;);
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fBxc4EsA.woff2) format(&#39;woff2&#39;);
   unicode-range: U+0370-03FF;
 }
+/* vietnamese */
 @font-face {
-  font-family: &#39;Inter&#39;;
+  font-family: &#39;Roboto&#39;;
   font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/inter/v11/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2pL7SUc.woff2) format(&#39;woff2&#39;);
-  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fCxc4EsA.woff2) format(&#39;woff2&#39;);
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
 }
+/* latin-ext */
 @font-face {
-  font-family: &#39;Inter&#39;;
+  font-family: &#39;Roboto&#39;;
   font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/inter/v11/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa25L7SUc.woff2) format(&#39;woff2&#39;);
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fChc4EsA.woff2) format(&#39;woff2&#39;);
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
+/* latin */
 @font-face {
-  font-family: &#39;Inter&#39;;
+  font-family: &#39;Roboto&#39;;
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fBBc4.woff2) format(&#39;woff2&#39;);
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: &#39;Roboto&#39;;
   font-style: normal;
   font-weight: 700;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/inter/v11/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2) format(&#39;woff2&#39;);
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfCRc4EsA.woff2) format(&#39;woff2&#39;);
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: &#39;Roboto&#39;;
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfABc4EsA.woff2) format(&#39;woff2&#39;);
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: &#39;Roboto&#39;;
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfCBc4EsA.woff2) format(&#39;woff2&#39;);
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: &#39;Roboto&#39;;
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfBxc4EsA.woff2) format(&#39;woff2&#39;);
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: &#39;Roboto&#39;;
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfCxc4EsA.woff2) format(&#39;woff2&#39;);
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: &#39;Roboto&#39;;
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfChc4EsA.woff2) format(&#39;woff2&#39;);
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: &#39;Roboto&#39;;
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfBBc4.woff2) format(&#39;woff2&#39;);
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 </style> 
 <b:if cond='!data:view.isLayoutMode'>
 <b:skin><![CDATA[/*
 -----------------------------------------------
 Blogger Template
-Name        : Gila Material
-Version     : 1.2
-Developer   : Ishar Yulian Satriani
-Website     : gilatemax.eu.org
+Name        : Pena Edukasi
+Website     : penaeducasi.blogspot.com
 Country     : Indonesia
 ----------------------------------------------- */ 
 
@@ -364,7 +441,7 @@ Country     : Indonesia
    ==========================
 
   <Group description="Dimensi">
-    <Variable name="theme.width" description="Lebar Template" type="length" min="600px" max="2600px" default="1200px"  value="1200px"/>
+    <Variable name="theme.width" description="Lebar Template" type="length" min="600px" max="2600px" default="1200px"  value="1150px"/>
     <Variable name="header.height" description="Tinggi Header" type="length" min="20px" max="500px" default="55px"  value="55px"/>
   </Group>  
 
@@ -2563,7 +2640,6 @@ h1.entry_title {
     margin:15px;
   }
 }
-
 ]]></b:skin>
 </b:if>
 
@@ -3143,6 +3219,16 @@ var lokasiIklanTengah2 = 8;
 
   gtag(&#39;config&#39;, &#39;G-C73DQWKRDN&#39;);
 </script>
+  <!-- Google tag (gtag.js) -->
+<script async='async' src='https://www.googletagmanager.com/gtag/js?id=G-C73DQWKRDN'>
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag(&#39;js&#39;, new Date());
+
+  gtag(&#39;config&#39;, &#39;G-C73DQWKRDN&#39;);
+</script>
  <script>
     function isReferrerValid(referrer) {
   // Cek apakah referrer berupa domain yang valid
@@ -3197,10 +3283,56 @@ const allowedUserAgents = [
   &quot;YandexBot&quot;,
   &quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36&quot;,
   &quot;Mozilla/5.0 (Macintosh; Intel Mac OS X 12_3; rv:99.0) Gecko/20100101 Firefox/99.0&quot;,
+  &quot;Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)&quot;
 ];
+</script>
+<script type='text/javascript'>
+function addLink(){var a=document.getElementsByTagName(&quot;body&quot;)[0];var b;b=window.getSelection();var c=&quot;<br/><br/> Sumber: <a href='&quot;+document.location.href+&quot;'>&quot;+document.location.href+&quot;</a><br/>Konten adalah milik dan hak cipta penaeducasi.blogspot.com (Pena Edukasi)&quot;;var d=b+c;var e=document.createElement(&quot;div&quot;);e.style.position=&quot;absolute&quot;;e.style.left=&quot;-99999px&quot;;a.appendChild(e);e.innerHTML=d;b.selectAllChildren(e);window.setTimeout(function(){a.removeChild(e)},0)}document.oncopy=addLink
+</script>
+<link href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css'/>
+<script async='async' data-ad-client='ca-pub-6293270434810918' src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'/> 
+<style type='text/css'>
+/*Breaking News Ticker Pena Edukasi*/
+
+/*Warna Background*/
+#breakingnews{
+    background-color: white
+}
+#breakingnews:before{
+    background-color: #1e90ff
+}
+
+/*Warna text*/
+#breakingnews:before{
+ color: white
+}
+
+span.close_button a {
+ color: red
+}
+
+#breakingnews#breakingnews,#breakingnews a{color: #424242;}
+
+/*Tulisan Breakng News*/
+#breakingnews:before{
+    content:&#39;Breaking News&#39;;
+}
+#breakingnews{position:relative;padding:10px 0;margin:10px 0;font-size:13px;box-shadow:0 5px 5px -5px #3339}#breakingnews:before{position:absolute;left:0;top:0;bottom:0;z-index:9;padding:5px;font-weight:700;margin: 5px 0;}#breakingnews marquee{padding:0;margin:0}.close_button{position:absolute;right:2px;border-radius:50%;top:-18px}#breakingnews .nitip{color:transparent}
+</style>
+<script type='text/javascript'>
+var url_breaking = &quot;https://penaeducasi.blogspot.com/&quot;;
+var jumlah_post = 10;
+var marquee_speed = &quot;10&quot;;
+var close_button = false;
+var info_text = true;
 </script>
 </head>
 <body>
+<div itemscope='itemscope' itemtype='http://schema.org/Blog' style='display: none;'>
+<meta content='Pena Edukasi' itemprop='name'/>
+<meta content='PENA EDUKASI - Chanel edukasi yang menyediakan berbagai informasi dan ilmu pengetahuan yang terpercaya dan memperioritaskan keamanan bagi pengguna.' itemprop='description'/>
+<meta content='pendidikan, edukasi, agama, belajar, mengajar, perangkat ajar, buku, simpatika, soal pts, soal UM, PPG, sekolah, universitas, ekonomi, sejarah, tutorial, teknologi, destinasi, news.' itemprop='keywords'/>
+</div>
 <iframe-ads/>
 <ntp-app/>
 <amp-auto-ads data-ad-client='ca-pub-6293270434810918' type='adsense'>
@@ -3211,7 +3343,6 @@ const allowedUserAgents = [
   <b:class cond='data:view.isPage' name='isPage'/>
   <b:class cond='data:view.isPost' name='isPost'/>
   <b:class cond='data:view.isError' name='isError'/>
-
 <b:if cond='data:view.isHomepage'>
       <!-- schema markup homepage -->
       <script type='application/ld+json'>{
@@ -3231,11 +3362,11 @@ const allowedUserAgents = [
         </svg>
       </button>
       <b:section class='header' id='header' maxwidgets='1' name='Header Logo and Title' showaddelement='no'>
-        <b:widget id='Header1' locked='true' title='Pena Edukasi (Header)' type='Header' version='2' visible='true'>
+        <b:widget id='Header1' locked='true' title='Pena - Edukasi (Header)' type='Header' version='2' visible='true'>
           <b:widget-settings>
             <b:widget-setting name='displayUrl'>https://blogger.googleusercontent.com/img/a/AVvXsEiTsSdqqRUu3UBjNCD4EWy0p6_m0Wn0mH_Us92-SIpGcqNtUT82uou7khlw5-kbEDJ8TIYIcqWvLLvjeXpuGEDFblenprpcP_D9i5UxCFkDQH_ZGU60NmXUXDl52orE9t42vkWJ_Y2EOtdMKycY3MOJPfKzXBqnFQimwExtRlYRWEIQddKQb0-2jdlxQ0MJ=s821</b:widget-setting>
             <b:widget-setting name='displayHeight'>213</b:widget-setting>
-            <b:widget-setting name='sectionWidth'>1024</b:widget-setting>
+            <b:widget-setting name='sectionWidth'>1017</b:widget-setting>
             <b:widget-setting name='useImage'>true</b:widget-setting>
             <b:widget-setting name='shrinkToFit'>true</b:widget-setting>
             <b:widget-setting name='imagePlacement'>REPLACE</b:widget-setting>
@@ -3306,11 +3437,18 @@ const allowedUserAgents = [
         <b:section class='main_navigation_menu' id='main_navigation_menu' maxwidgets='1' name='Main Navigation Menu' preferred='yes'>
           <b:widget id='HTML2' locked='true' title='Navmenu' type='HTML' visible='true'>
             <b:widget-settings>
-              <b:widget-setting name='content'>&lt;!-- menu section --&gt;
-        &lt;div class=&quot;td-mobile-content&quot;&gt;
-            &lt;div class=&quot;menu-menu-utama-container&quot;&gt;&lt;ul id=&quot;menu-menu-utama&quot; class=&quot;td-mobile-main-menu&quot;&gt;&lt;li id=&quot;menu-item-898&quot; class=&quot;menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-first menu-item-898&quot;&gt;
+              <b:widget-setting name='content'><![CDATA[<script src='https://rawcdn.githack.com/Hayatul1/Safelinkei/d922e8d2de8001c7c10f28dd2d2c380c9ecbef7f/breakingnews.js' type='text/javascript'></script>
+<script type='text/javascript'>
+//<![CDATA[
+document.getElementById("breaking-newsticker").appendChild(document.getElementById("post_breakingnews"));
+//]]]]><![CDATA[>
+</script>
 
-&lt;!-- Cari kode id=&#39;gila_material_navigation&#39; di Edit HTML Tema --&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;</b:widget-setting>
+<!-- menu section -->
+        <div class="td-mobile-content">
+            <div class="menu-menu-utama-container"><ul id="menu-menu-utama" class="td-mobile-main-menu"><li id="menu-item-898" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-first menu-item-898">
+
+<!-- Cari kode id='gila_material_navigation' di Edit HTML Tema --></li></ul></div></div>]]></b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
   <b:include name='widget-title'/>
@@ -3335,7 +3473,7 @@ const allowedUserAgents = [
           </div>
           <ul>
             <li><a href='/'>Home</a></li>
-            <li><a class='sub_menu' href='javascript:;'>Agama</a>
+            <li><a class='sub_menu' href='javascript:;'>Ibadah</a>
               <ul>
                 <li><a href='/search/label/Shalat'>Shalat</a></li>
                 <li><a href='/search/label/Puasa'>Puasa</a></li>
@@ -3352,6 +3490,7 @@ const allowedUserAgents = [
                  <li><a href='/search/label/Simpatika'>Simpatika</a></li>
                 <li><a href='/search/label/PPG'>PPG</a></li>
                 <li><a href='/search/label/Soal PTS'>Soal PTS</a></li>
+                <li><a href='/search/label/Soal PTS'>Soal PAT</a></li>
                 <li><a href='/search/label/Soal UM'>Soal UM</a></li>
               </ul>
             </li>
@@ -3406,12 +3545,36 @@ const allowedUserAgents = [
       </button>
     </div>
   </header>
+  <meta content='width=device-width, initial-scale=1' name='viewport'/>
 </div>
 <div class='top_height'/>
 <b:if cond='data:view.isError'>
   <div class='error_wrapper'>
-    <h2>404</h2>
-    <h3><b:switch var='data:blog.locale'><b:case value='id'/>Oops! halaman tidak ditemukan<b:default/>Oops! page not found</b:switch></h3>
+    <a class='header-logo' href='https://penaeducasi.blogspot.com/'/>
+    <img alt='Pena Edukasi' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXFaPPnwrufnEtF5N4PDbAmG3xcpJaubhxZCMtkbwjioEem0NWq2j0HNKKf6lXsN3HyyJ9h2_nhrVJIL2uFlrGuw5EwosDe8eFbSy8H539Y-Mj4FOBOiDVgHR-EkhQ8pn_egunC9eTWii0ve7uD2btUeDPfpHk0_-RfOKbmh6nCEZs7Sk/s1600/PENA%20EDUKASI_waifu2x_photo_noise3_scale%20(2).png'/>
+    <a href='https://penaeducasi.blogspot.com/p/daftar-isi.html'/>
+    <h2 class='header-title'>Daftar Isi</h2>
+    <style type='text/css'>
+#toc{width:99%;margin:5px auto;border:1px solid #2D96DF;
+-webkit-box-shadow:4px 4px 8px 2px rgba(0,0,0, 0.2);
+-moz-box-shadow:4px 4px 8px 2px rgba(0,0,0, 0.2);
+box-shadow:4px 4px 8px 2px rgba(0,0,0, 0.2);}
+.labl{color:#FF5F00;font-weight:bold;margin:0 -5px;
+padding:1px 0 2px 11px;background: #3498DB;
+border:1px solid #2D96DF;
+border-radius:4px;-moz-border-radius:4px;
+-webkit-border-radius:4px;box-shadow:3px 3px 1px #bbb;
+-moz-box-shadow:3px 3px 1px #bbb;-webkit-box-shadow:3px 3px 1px #bbb;display:block;}
+.labl a{color:#fff;}
+.labl:first-letter{text-transform:uppercase;}
+.new{color:#FF5F00;font-weight:bold;font-style:italic;}
+.postname{font-weight:normal;background:#fff;margin-left: 35px;}
+.postname li{border-bottom: #ddd 1px dotted;margin-right:5px}
+</style>
+<div id='toc'>
+<script src='https://cdn.jsdelivr.net/gh/penaindigo/Pena-Indigo-Code@a134f9def601a6f77332eccc35d3d20e0d3c7e49/sitemappenaindigo.js' type='text/javascript'/>
+<script src='/feeds/posts/default?max-results=9999&amp;alt=json-in-script&amp;callback=loadtoc'>
+</script></div>
     <p><b:switch var='data:blog.locale'><b:case value='id'/>Maaf, kami tidak dapat menemukan halaman yang Anda cari.<b:default/>Sorry, we couldn&#39;t find the page you were looking for.</b:switch></p>
     <a class='gila_material_button outline' href='/'><b:switch var='data:blog.locale'><b:case value='id'/>Kembali ke Beranda<b:default/>Back to the Homepage</b:switch></a>
   </div>
@@ -3420,23 +3583,23 @@ const allowedUserAgents = [
   <b:section class='ad_under_header' id='ad_under_header' maxwidgets='1' name='Ad Under Header' preferred='yes'>
     <b:widget id='HTML1' locked='true' title='Ad Under Header' type='HTML' version='2' visible='true'>
       <b:widget-settings>
-        <b:widget-setting name='content'>&lt;div id=&quot;iframe-container&quot;&gt;
-&lt;!-- Pena_Edukasi--&gt;
-&lt;div class=&quot;custom_headerads&quot;&gt;
-&lt;ins class=&quot;adsbygoogle&quot;
-     style=&quot;display:block&quot;
-     data-ad-client=&quot;ca-pub-6293270434810918&quot;
-     data-ad-slot=&quot;5895579766&quot;
-     data-ad-format=&quot;auto&quot;
-     data-full-width-responsive=&quot;true&quot;&gt;&lt;/ins&gt;
-&lt;script&gt;
+        <b:widget-setting name='content'><![CDATA[<div id="iframe-container">
+<!-- Pena_Edukasi-->
+<div class="custom_headerads">
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6293270434810918"
+     data-ad-slot="5895579766"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-&lt;/script&gt;
-&lt;/div&gt;
-&lt;div class=&quot;site grid-container container hfeed&quot; id=&quot;page&quot;&gt;
-&lt;div class=&quot;site-content&quot; id=&quot;content&quot;&gt;
-&lt;div class=&quot;content-area&quot; id=&quot;primary&quot;&gt;
-&lt;main class=&quot;site-main&quot; id=&quot;main&quot;&gt;&lt;/main&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</b:widget-setting>
+</script>
+</div>
+<div class="site grid-container container hfeed" id="page">
+<div class="site-content" id="content">
+<div class="content-area" id="primary">
+<main class="site-main" id="main"></main></div></div></div></div>]]></b:widget-setting>
       </b:widget-settings>
       <b:includable id='main'>
   <div class='widget-content'>
@@ -4123,7 +4286,23 @@ const allowedUserAgents = [
   <b:include cond='data:view.isPost' name='entryPostMeta'/>
   <div class='post_body entry_content' id='post_body'>
     <div id='post_middle'>
-      <data:post.body/>
+      <data:post.body/> 
+      <b:if cond='data:blog.pageType == &quot;item&quot;'>
+<div style='float:left; margin: 0px 10px 0px 0px'>
+&lt;script async src=&quot;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6293270434810918&quot;
+     crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+&lt;!-- iklan bawah --&gt;
+&lt;ins class=&quot;adsbygoogle&quot;
+     style=&quot;display:block&quot;
+     data-ad-client=&quot;ca-pub-6293270434810918&quot;
+     data-ad-slot=&quot;8720860752&quot;
+     data-ad-format=&quot;auto&quot;
+     data-full-width-responsive=&quot;true&quot;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+</div></b:if>
+      
       <b:include cond='data:view.isPost and !data:view.isPreview' name='relatedPostText'/>
     </div>
     <b:include cond='!data:view.isPage and data:post.author.aboutMe' name='postAuthorBox'/>
@@ -4597,16 +4776,15 @@ function repText(id) {var a = document.getElementById(id); if (!a) return; var b
 <b:section class='top_ad' id='top_ad' maxwidgets='1' name='Top Ad in Posts' showaddelement='yes'>
   <b:widget id='HTML996' locked='true' title='iframe 02' type='HTML' version='2' visible='true'>
     <b:widget-settings>
-      <b:widget-setting name='content'>&lt;!-- Yandex.RTB R-A-3108190-1 --&gt;
-&lt;div id=&quot;yandex_rtb_R-A-3108190-1&quot;&gt;&lt;/div&gt;
-&lt;script&gt;
-window.yaContextCb.push(()=&gt;{
-	Ya.Context.AdvManager.render({
-		&quot;blockId&quot;: &quot;R-A-3108190-1&quot;,
-		&quot;renderTo&quot;: &quot;yandex_rtb_R-A-3108190-1&quot;
-	})
-})
-&lt;/script&gt;</b:widget-setting>
+      <b:widget-setting name='content'><![CDATA[<!-- WP QUADS - Quick AdSense Reloaded v.2.0.83 Content AdSense async --> 
+<ins class="adsbygoogle"
+style="display:block;"
+data-ad-format="auto"
+data-ad-client="ca-pub-6293270434810918"
+data-ad-slot="5895579766"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});</script>
+<!-- end WP QUADS -->]]></b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
   <!--<b:include name='widget-title'/>-->
@@ -4621,22 +4799,15 @@ window.yaContextCb.push(()=&gt;{
 <b:section class='middle_ad1' id='middle_ad1' maxwidgets='1' name='Middle Ad in Posts 1' showaddelement='yes'>
   <b:widget id='HTML997' locked='true' title='iframe 03' type='HTML' version='2' visible='true'>
     <b:widget-settings>
-      <b:widget-setting name='content'>&lt;!-- Pena_Edukasi--&gt;
-&lt;div class=&quot;custom_headerads&quot;&gt;
-&lt;ins class=&quot;adsbygoogle&quot;
-     style=&quot;display:block&quot;
-     data-ad-client=&quot;ca-pub-6293270434810918&quot;
-     data-ad-slot=&quot;5895579766&quot;
-     data-ad-format=&quot;auto&quot;
-     data-full-width-responsive=&quot;true&quot;&gt;&lt;/ins&gt;
-&lt;script&gt;
+      <b:widget-setting name='content'><![CDATA[<script async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6293270434810918" crossorigin="anonymous" ></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="autorelaxed"
+     data-ad-client="ca-pub-6293270434810918"
+     data-ad-slot="5447697401"></ins>
+<script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-&lt;/script&gt;
-&lt;/div&gt;
-&lt;div class=&quot;site grid-container container hfeed&quot; id=&quot;page&quot;&gt;
-&lt;div class=&quot;site-content&quot; id=&quot;content&quot;&gt;
-&lt;div class=&quot;content-area&quot; id=&quot;primary&quot;&gt;
-&lt;main class=&quot;site-main&quot; id=&quot;main&quot;&gt;&lt;/main&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</b:widget-setting>
+</script>]]></b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
   <!--<b:include name='widget-title'/>-->
@@ -4651,15 +4822,16 @@ window.yaContextCb.push(()=&gt;{
 <b:section class='parallax_ad' id='parallax_ad' maxwidgets='1' name='Parallax Ad In Posts' showaddelement='yes'>
   <b:widget id='HTML7' locked='true' title='iframe 04' type='HTML' version='2' visible='true'>
     <b:widget-settings>
-      <b:widget-setting name='content'>&lt;ins class=&quot;adsbygoogle&quot;
-     style=&quot;display:block&quot;
-     data-ad-format=&quot;fluid&quot;
-     data-ad-layout-key=&quot;-7e+ew-1b-28+9a&quot;
-     data-ad-client=&quot;ca-pub-6293270434810918&quot;
-     data-ad-slot=&quot;9957375010&quot;&gt;&lt;/ins&gt;
-&lt;script&gt;
+      <b:widget-setting name='content'><![CDATA[<script async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6293270434810918" crossorigin="anonymous" ></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-7e+ew-1b-28+9a"
+     data-ad-client="ca-pub-6293270434810918"
+     data-ad-slot="9957375010"></ins>
+<script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-&lt;/script&gt;</b:widget-setting>
+</script>]]></b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
   <!--<b:include name='widget-title'/>-->
@@ -4678,15 +4850,15 @@ window.yaContextCb.push(()=&gt;{
 <b:section class='middle_ad2' id='middle_ad2' maxwidgets='1' name='Middle Ad in Posts 2' showaddelement='yes'>
   <b:widget id='HTML998' locked='true' title='iframe 05' type='HTML' version='2' visible='true'>
     <b:widget-settings>
-      <b:widget-setting name='content'>&lt;ins class=&quot;adsbygoogle&quot;
-     style=&quot;display:block; text-align:center;&quot;
-     data-ad-layout=&quot;in-article&quot;
-     data-ad-format=&quot;fluid&quot;
-     data-ad-client=&quot;ca-pub-6293270434810918&quot;
-     data-ad-slot=&quot;3772807284&quot;&gt;&lt;/ins&gt;
-&lt;script&gt;
+      <b:widget-setting name='content'><![CDATA[<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6293270434810918"
+     data-ad-slot="3772807284"></ins>
+<script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-&lt;/script&gt;</b:widget-setting>
+</script>]]></b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
   <!--<b:include name='widget-title'/>-->
@@ -4701,15 +4873,14 @@ window.yaContextCb.push(()=&gt;{
 <b:section class='bottom_ad' id='bottom_ad' maxwidgets='1' name='Bottom Ad in Posts' showaddelement='yes'>
   <b:widget id='HTML999' locked='true' title='iframe 06' type='HTML' version='2' visible='true'>
     <b:widget-settings>
-      <b:widget-setting name='content'>&lt;ins class=&quot;adsbygoogle&quot;
-     style=&quot;display:block; text-align:center;&quot;
-     data-ad-layout=&quot;in-article&quot;
-     data-ad-format=&quot;fluid&quot;
-     data-ad-client=&quot;ca-pub-6293270434810918&quot;
-     data-ad-slot=&quot;3772807284&quot;&gt;&lt;/ins&gt;
-&lt;script&gt;
+      <b:widget-setting name='content'><![CDATA[<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="autorelaxed"
+     data-ad-client="ca-pub-6293270434810918"
+     data-ad-slot="8096328193"></ins>
+<script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-&lt;/script&gt;</b:widget-setting>
+</script>]]></b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
   <!--<b:include name='widget-title'/>-->
@@ -4783,16 +4954,77 @@ bacaJuga.innerHTML = &quot;&quot;;
     </div>
     <aside id='gila_material_sidebar'>
       <b:section class='sidebar' id='sidebar' name='Sidebar Menu' preferred='yes'>
-        <b:widget id='HTML12' locked='false' title='presentasi' type='HTML' visible='false'>
+        <b:widget id='HTML13' locked='false' title='Breaking News' type='HTML' visible='true'>
           <b:widget-settings>
-            <b:widget-setting name='content'>&lt;ins class=&quot;adsbygoogle&quot;
-     style=&quot;display:block&quot;
-     data-ad-format=&quot;autorelaxed&quot;
-     data-ad-client=&quot;ca-pub-6293270434810918&quot;
-     data-ad-slot=&quot;1615818086&quot;&gt;&lt;/ins&gt;
-&lt;script&gt;
+            <b:widget-setting name='content'><![CDATA[<div id="iframe-container">
+<script src='https://rawcdn.githack.com/Hayatul1/Safelinkei/d922e8d2de8001c7c10f28dd2d2c380c9ecbef7f/breakingnews.js' type='text/javascript'></script>
+<script type='text/javascript'>
+//<![CDATA[
+document.getElementById("breaking-newsticker").appendChild(document.getElementById("post_breakingnews"));
+//]]]]><![CDATA[>
+</script></div>]]></b:widget-setting>
+          </b:widget-settings>
+          <b:includable id='main'>
+  <b:include name='widget-title'/>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+</b:includable>
+        </b:widget>
+        <b:widget id='HTML14' locked='false' title='Youtube' type='HTML' visible='false'>
+          <b:widget-settings>
+            <b:widget-setting name='content'><![CDATA[<script src="https://apis.google.com/js/platform.js"></script>
+
+<div class="g-ytsubscribe" data-channelid="UC1TXc_6rw0kRV57tSccEiqA" data-layout="full" data-count="default"></div>]]></b:widget-setting>
+          </b:widget-settings>
+          <b:includable id='main'>
+  <b:include name='widget-title'/>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+</b:includable>
+        </b:widget>
+        <b:widget id='Image4' locked='false' title='' type='Image' visible='false'>
+          <b:widget-settings>
+            <b:widget-setting name='displayUrl'>https://blogger.googleusercontent.com/img/a/AVvXsEh3o2E7iEUKRuDg6xJNb-ZiAp_kVQr_jAWNoXngvp1kWVjHuvfSXASfCHAc0_KRI9i-_w04_nuPw7J6bU0Xv11mWXvPx8qEEMvuskOfaDHyEJ5X_GMO29eYocCiqzgN3UiSwmmL6HZ58qTS4CeqjEI4Nu2YHxEhwVBfwCzxCt3HVtHYGiAtfXlAWInklMf5=s425</b:widget-setting>
+            <b:widget-setting name='displayHeight'>300</b:widget-setting>
+            <b:widget-setting name='sectionWidth'>501</b:widget-setting>
+            <b:widget-setting name='shrinkToFit'>true</b:widget-setting>
+            <b:widget-setting name='displayWidth'>425</b:widget-setting>
+            <b:widget-setting name='link'>https://www.youtube.com/@ilmupedia3769/videos</b:widget-setting>
+            <b:widget-setting name='caption'/>
+          </b:widget-settings>
+          <b:includable id='main'>
+  <b:include name='widget-title'/>
+  <b:include name='content'/>
+</b:includable>
+          <b:includable id='content'>
+  <div class='widget-content'>
+    <b:tag cond='data:link' expr:href='data:link' name='a'>
+      <img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_img&quot;' expr:src='data:sourceUrl' expr:width='data:width'>
+        <b:attr cond='data:sourceSet' expr:value='data:sourceSet' name='srcset'/>
+      </img>
+    </b:tag>
+    <br/>
+    <b:if cond='data:caption'>
+      <span class='caption'><data:caption/></span>
+    </b:if>
+  </div>
+</b:includable>
+        </b:widget>
+        <b:widget id='HTML12' locked='false' title='presentasi' type='HTML' visible='true'>
+          <b:widget-settings>
+            <b:widget-setting name='content'><![CDATA[<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6293270434810918"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-5y+c9-j-4a+nm"
+     data-ad-client="ca-pub-6293270434810918"
+     data-ad-slot="2492714939"></ins>
+<script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-&lt;/script&gt;</b:widget-setting>
+</script>]]></b:widget-setting>
           </b:widget-settings>
           <b:includable id='main'>
   <b:include name='widget-title'/>
@@ -4932,15 +5164,15 @@ bacaJuga.innerHTML = &quot;&quot;;
         </b:widget>
         <b:widget id='HTML9' locked='false' title='' type='HTML' visible='true'>
           <b:widget-settings>
-            <b:widget-setting name='content'>&lt;ins class=&quot;adsbygoogle&quot;
-     style=&quot;display:block&quot;
-     data-ad-format=&quot;fluid&quot;
-     data-ad-layout-key=&quot;-fb+5w+4e-db+86&quot;
-     data-ad-client=&quot;ca-pub-6293270434810918&quot;
-     data-ad-slot=&quot;1010561278&quot;&gt;&lt;/ins&gt;
-&lt;script&gt;
+            <b:widget-setting name='content'><![CDATA[<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-fb+5w+4e-db+86"
+     data-ad-client="ca-pub-6293270434810918"
+     data-ad-slot="1010561278"></ins>
+<script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-&lt;/script&gt;</b:widget-setting>
+</script>]]></b:widget-setting>
           </b:widget-settings>
           <b:includable id='main'>
   <b:include name='widget-title'/>
@@ -5254,15 +5486,15 @@ bacaJuga.innerHTML = &quot;&quot;;
         </b:widget>
         <b:widget id='HTML10' locked='false' title='' type='HTML' visible='true'>
           <b:widget-settings>
-            <b:widget-setting name='content'>&lt;ins class=&quot;adsbygoogle&quot;
-     style=&quot;display:block&quot;
-     data-ad-format=&quot;fluid&quot;
-     data-ad-layout-key=&quot;-6t+ed+2i-1n-4w&quot;
-     data-ad-client=&quot;ca-pub-6293270434810918&quot;
-     data-ad-slot=&quot;3035757687&quot;&gt;&lt;/ins&gt;
-&lt;script&gt;
+            <b:widget-setting name='content'><![CDATA[<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-6t+ed+2i-1n-4w"
+     data-ad-client="ca-pub-6293270434810918"
+     data-ad-slot="3035757687"></ins>
+<script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-&lt;/script&gt;</b:widget-setting>
+</script>]]></b:widget-setting>
           </b:widget-settings>
           <b:includable id='main'>
   <b:include name='widget-title'/>
@@ -5381,8 +5613,7 @@ bacaJuga.innerHTML = &quot;&quot;;
       </b:widget>
       <b:widget id='HTML11' locked='false' title='mobiletracker.org' type='HTML' visible='false'>
         <b:widget-settings>
-          <b:widget-setting name='content'>&lt;!-- Start: Copyright 2023 MobileTracker.org Service Code (061244-10162023)- DO NOT MODIFY //--&gt;
-&lt;div id=&quot;elemID031021&quot; style=&quot;line-height:16px;text-align:center;position:relative;z-index:100000;&quot;&gt;&lt;script async type=&quot;text/javascript&quot; src=&quot;//www.mobiletracker.org/vLg/lgUrl.php?pidnVar2=20949&amp;amp;prtVar2=3&amp;amp;stlVar2=1600~1697436615~300*150*1*1*10~F2F5FF*D9D5D2~1*1*1&amp;amp;rgtype=4684NR-IPIB&amp;amp;scvVar2=12&amp;amp;gustVarS=1&amp;amp;gustVarU=25105&amp;amp;gustVarM=2&quot;&gt;&lt;/script&gt;&lt;div&gt;&lt;a href=&quot;https://www.mobiletracker.org/pv1-1-25105-2&quot;&gt;my mobile tracer stats&lt;/a&gt;&lt;/div&gt;&lt;noscript&gt;&lt;a href=&quot;https://www.mobiletracker.org/pv1-1-25105-2&quot;&gt;&lt;img src=&quot;//www.mobiletracker.org/vLg/1600~1697436615~300*150*1*1*10~F2F5FF*D9D5D2~1*1*1/4684NR-IPIB/20949/3/12/ans/&quot; alt=&quot;block mobile users&quot; referrerpolicy=&quot;no-referrer-when-downgrade&quot; style=&quot;border:0px;&quot; /&gt;&lt;/a&gt;&lt;/noscript&gt;&lt;/div&gt; &lt;!-- End: MobileTracker.org Service Code //--&gt;</b:widget-setting>
+          <b:widget-setting name='content'/>
         </b:widget-settings>
         <b:includable id='main'>
   <b:include name='widget-title'/>
@@ -5393,15 +5624,60 @@ bacaJuga.innerHTML = &quot;&quot;;
       </b:widget>
       <b:widget id='HTML4' locked='false' title='' type='HTML' visible='true'>
         <b:widget-settings>
-          <b:widget-setting name='content'>&lt;ins class=&quot;adsbygoogle&quot;
-     style=&quot;display:block&quot;
-     data-ad-format=&quot;fluid&quot;
-     data-ad-layout-key=&quot;-6t+ed+2i-1n-4w&quot;
-     data-ad-client=&quot;ca-pub-6293270434810918&quot;
-     data-ad-slot=&quot;3035757687&quot;&gt;&lt;/ins&gt;
-&lt;script&gt;
+          <b:widget-setting name='content'><![CDATA[<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-6t+ed+2i-1n-4w"
+     data-ad-client="ca-pub-6293270434810918"
+     data-ad-slot="3035757687"></ins>
+<script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-&lt;/script&gt;</b:widget-setting>
+</script>]]></b:widget-setting>
+        </b:widget-settings>
+        <b:includable id='main'>
+  <b:include name='widget-title'/>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+</b:includable>
+      </b:widget>
+      <b:widget id='LinkList1' locked='false' title='Gabung Groub Kami' type='LinkList' visible='true'>
+        <b:widget-settings>
+          <b:widget-setting name='sorting'>NONE</b:widget-setting>
+          <b:widget-setting name='text-1'>Groub Wa Pena Edukasi #2</b:widget-setting>
+          <b:widget-setting name='link-1'>https://chat.whatsapp.com/IhvujfOnz5Q8w4AktknaN0</b:widget-setting>
+          <b:widget-setting name='text-0'>Groub Wa Pena Edukasi #1</b:widget-setting>
+          <b:widget-setting name='link-2'>https://chat.whatsapp.com/IhvujfOnz5Q8w4AktknaN0</b:widget-setting>
+          <b:widget-setting name='link-0'>https://chat.whatsapp.com/IhvujfOnz5Q8w4AktknaN0</b:widget-setting>
+          <b:widget-setting name='text-2'>Groub Telegram</b:widget-setting>
+        </b:widget-settings>
+        <b:includable id='main'>
+  <b:include name='widget-title'/>
+  <b:include name='content'/>
+</b:includable>
+        <b:includable id='content'>
+ <div class='widget-content'>
+   <ul>
+     <b:loop values='data:links' var='link'>
+       <li><a expr:href='data:link.target'><data:link.name/></a></li>
+     </b:loop>
+   </ul>
+ </div>
+</b:includable>
+      </b:widget>
+      <b:widget id='HTML15' locked='false' title='Digital Marketing' type='HTML' visible='true'>
+        <b:widget-settings>
+          <b:widget-setting name='content'><![CDATA[<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6293270434810918"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-5y+c9-j-4a+nm"
+     data-ad-client="ca-pub-6293270434810918"
+     data-ad-slot="2179189479"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>]]></b:widget-setting>
         </b:widget-settings>
         <b:includable id='main'>
   <b:include name='widget-title'/>
@@ -5525,9 +5801,9 @@ bacaJuga.innerHTML = &quot;&quot;;
   <b:section class='footer_credit' id='footer_credit' maxwidgets='1' name='Footer Credit' preferred='yes'>
     <b:widget id='HTML3' locked='true' title='Footer Credit' type='HTML' version='2' visible='true'>
       <b:widget-settings>
-        <b:widget-setting name='content'>&lt;div class=&quot;copyright&quot;&gt;
-&amp;#169; 2021-2023 &#8231; &lt;a href=&quot;/&quot;&gt;Pena Edukasi&lt;/a&gt; | &lt;a href=&#39;https://www.blogger.com/&#39; rel=&#39;nofollow&#39; target=&#39;_blank&#39; title=&#39;Powered by Blogger&#39;&gt;Dikembangkan Oleh Google&lt;/a&gt;
-&lt;/div&gt;</b:widget-setting>
+        <b:widget-setting name='content'><![CDATA[<div class="copyright">
+&#169; 2021-2024 ‧ <a href="/">Pena Edukasi</a> | <a href='https://www.blogger.com/' rel='nofollow' target='_blank' title='Powered by Blogger'>All Right Reserved</a>
+</div>]]></b:widget-setting>
       </b:widget-settings>
       <b:includable id='main'>
   <!--<b:include name='widget-title'/>-->
@@ -5547,12 +5823,11 @@ bacaJuga.innerHTML = &quot;&quot;;
     </svg>
   </button>
 </div>
-
 <div class='snackbar'>
   Link copied to clipboard.
 </div>
 <div class='backdrop'/>
-
+<script async='async' crossorigin='anonymous' src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6293270434810918'/>
 <script>
 //<![CDATA[
 /* Main Script */
@@ -5570,24 +5845,15 @@ Defer.dom("img.lazyload",100,"loaded",null,{rootMargin:"1px"});
 <b:section class='custom_javascript' id='custom_javascript' maxwidgets='1' name='Custom JavaScript' preferred='yes'>
   <b:widget id='HTML5' locked='true' title='Bismillahirrahmanirrahim' type='HTML' version='2' visible='true'>
     <b:widget-settings>
-      <b:widget-setting name='content'>&lt;div id=&quot;iframe-container&quot;&gt;
-&lt;!-- Pena_Edukasi--&gt;
-&lt;div class=&quot;custom_headerads&quot;&gt;
-&lt;!-- iklan google --&gt;
-&lt;ins class=&quot;adsbygoogle&quot;
-     style=&quot;display:block&quot;
-     data-ad-client=&quot;ca-pub-6293270434810918&quot;
-     data-ad-slot=&quot;1800052277&quot;
-     data-ad-format=&quot;auto&quot;
-     data-full-width-responsive=&quot;true&quot;&gt;&lt;/ins&gt;
-&lt;script&gt;
+      <b:widget-setting name='content'><![CDATA[<script async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6293270434810918" crossorigin="anonymous" ></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="autorelaxed"
+     data-ad-client="ca-pub-6293270434810918"
+     data-ad-slot="5447697401"></ins>
+<script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-&lt;/script&gt;
-&lt;/div&gt;
-&lt;div class=&quot;site grid-container container hfeed&quot; id=&quot;page&quot;&gt;
-&lt;div class=&quot;site-content&quot; id=&quot;content&quot;&gt;
-&lt;div class=&quot;content-area&quot; id=&quot;primary&quot;&gt;
-&lt;main class=&quot;site-main&quot; id=&quot;main&quot;&gt;&lt;/main&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</b:widget-setting>
+</script>]]></b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
   <div class='widget-content'>
@@ -5598,5 +5864,23 @@ Defer.dom("img.lazyload",100,"loaded",null,{rootMargin:"1px"});
 </b:section>
   &lt;!--<amp-auto-ads data-ad-client='ca-pub-6293270434810918' type='adsense'>
 </amp-auto-ads>
+  <script src='https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js'/>
+  <script src='https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js'/>
+<script async='async' crossorigin='anonymous' src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6293270434810918'/>
+<!-- ads vertikal -->
+<ins class='adsbygoogle' data-ad-client='ca-pub-6293270434810918' data-ad-format='auto' data-ad-slot='5990889085' data-full-width-responsive='true' style='display:block'/>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<!-- Yandex.RTB R-A-9374034-1 -->
+<div id='yandex_rtb_R-A-9374034-1'/>
+<script>
+window.yaContextCb.push(() =&gt; {
+    Ya.Context.AdvManager.render({
+        &quot;blockId&quot;: &quot;R-A-9374034-1&quot;,
+	&quot;renderTo&quot;: &quot;yandex_rtb_R-A-9374034-1&quot;
+    })
+})
+</script>
 </body>--&gt;&lt;/body&gt;
 </html>
