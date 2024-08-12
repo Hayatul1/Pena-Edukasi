@@ -3595,6 +3595,10 @@ border-radius:4px;-moz-border-radius:4px;
     width: 100%; /* Gambar akan mengisi seluruh lebar container-nya */
     height: auto; /* Tinggi gambar akan disesuaikan secara otomatis */
   }
+</style>
+<style>
+ border:0; /* allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade */
+  }
 </style>]]></b:widget-setting>
       </b:widget-settings>
       <b:includable id='main'>
@@ -5072,38 +5076,21 @@ document.getElementById("breaking-newsticker").appendChild(document.getElementBy
   </div>
 </b:includable>
         </b:widget>
-        <b:widget id='HTML14' locked='false' title='Maps' type='HTML' visible='false'>
+        <b:widget id='HTML14' locked='false' title='Maps' type='HTML' visible='true'>
           <b:widget-settings>
-            <b:widget-setting name='content'><![CDATA[<div class="map-container">
-  <div id="map"></div>
-</div>
-
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGc1Aizms-ghvJquKrwjz0MZE5yU-dkVM"></script>
-
-<script>
-  function initMap() {
-    // Replace with your desired location coordinates
-    const coordinates = { lat: -5.8072081, lng: 112.6806983 };
-
-    const map = new google.maps.Map(document.getElementById("map"), {
-      zoom: 8,
-      center: coordinates,
-    });
-  }
-</script>
-
+            <b:widget-setting name='content'><![CDATA[<div class="iframe-container">
+<iframe src="https://www.google.com/maps/embed?pb=!1m17!1m11!1m3!1d459.72598988044535!2d112.6806982948383!3d-5.807208130116205!2m2!1f0!2f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2ddf573d71426681%3A0xebb6528ca8372e29!2sPENA%20EDUKASI!5e1!3m2!1sid!2sid!4v1723481785532!5m2!1sid!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
 <style>
-  /* Make the Google Maps responsive */
-  .map-container {
+/* Make the google maps responsive */
+  .iframe-container{
     position: relative;
     width: 100%;
     padding-bottom: 56.25%;
     height: 0;
   }
-
-  .map-container #map {
+  .iframe-container iframe{
     position: absolute;
-    top: 0;
+    top:0;
     left: 0;
     width: 100%;
     height: 100%;
@@ -5671,8 +5658,7 @@ var player;
         <b:widget-settings>
           <b:widget-setting name='content'><![CDATA[<div id='adslayoutleft'><div class='idblogmaker'>
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6293270434810918"
-     crossorigin="anonymous"></script>
+<script async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6293270434810918" crossorigin="anonymous" ></script>
 <!-- ads vertikal -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -5689,8 +5675,7 @@ var player;
 
 <div id='adslayoutleftright'><div class='idblogmakercom'>
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6293270434810918"
-     crossorigin="anonymous"></script>
+<script async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6293270434810918" crossorigin="anonymous" ></script>
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-format="autorelaxed"
