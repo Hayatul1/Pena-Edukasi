@@ -14,10 +14,9 @@
 <script async='async' crossorigin='anonymous' src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6293270434810918'/>
 <b:comment> Viewport </b:comment>
 <meta charset='utf-8'/>
-<meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'/>
 <meta content='width=device-width, initial-scale=1' name='viewport'/>
-<meta content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' name='robots'/>
-<meta content='website, navigasi, Nav' name='keywords'/>
+<meta content='INDEX, FOLLOW' name='ROBOTS'/>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
 <b:comment> Title </b:comment>
 <b:if cond='data:view.isPost'>
     <title><data:blog.pageName/></title>
@@ -84,8 +83,7 @@
 <meta content='archive, sitelinkssearchbox' name='googlebot'/>
 <meta content='Pena Edukasi' name='Publisher'/>
 <meta content='penaeducasi.blogspot.com' property='og:sitename'/>
-<meta content='General' name='Rating'/>
-<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<meta content='blogger' name='generator'/>
 <meta content='gzip' http-equiv='Content-Encoding'/>
 <meta content='max-age=3600' http-equiv='cache-control'/>
 <b:comment> Meta Description Product </b:comment>
@@ -100,7 +98,7 @@
   <meta expr:content='data:blog.postImageUrl' property='og:image'/>
   <meta expr:content='data:blog.postImageUrl' name='twitter:image'/>
 <b:else/>
-  <meta content='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXFaPPnwrufnEtF5N4PDbAmG3xcpJaubhxZCMtkbwjioEem0NWq2j0HNKKf6lXsN3HyyJ9h2_nhrVJIL2uFlrGuw5EwosDe8eFbSy8H539Y-Mj4FOBOiDVgHR-EkhQ8pn_egunC9eTWii0ve7uD2btUeDPfpHk0_-RfOKbmh6nCEZs7Sk/s1600/PENA%20EDUKASI_waifu2x_photo_noise3_scale%20(2).png' property='og:image'/>
+  <meta content='https://rawcdn.githack.com/Hayatul1/Pena-Edukasi/03c58b827155d5c14f17a964e698a5abe75a1d7f/logo%20PENA%20-%20EDUKASI.png?raw=true' property='og:image'/>
   <meta content='LOGO_GAMBAR' name='twitter:image'/>
 </b:if>
 
@@ -159,33 +157,12 @@
 <meta content='C2RITP58LSQ8YbZUKQmD49vfB3OP52Y6nR5sOq6ibBc' name='google-site-verification'/>
 <meta content='502324CF55CCD3ACB398A6EB20A26417' name='msvalidate.01'/>
 <meta content='876AFF675A86B42418EEDAB303C1754C' name='msvalidate.01'/>
+<meta content='b6d229cbb46770a2' name='yandex-verification'/>
 <meta content='513e32727ae88190' name='yandex-verifikasi'/>
 <meta content='514c04a1aa70397cde95da52b1c3be63cdf7a7abd3e8b95d7b8434e3d99dbdcb' name='ahrefs-site-verification'/>
 <meta content='y231wx8pqc3754dhdooqnojb8p64xl' name='facebook-domain-verification'/>
 <meta content='QlJOdUU0VnduK1VLQTFqN2VkeW1ocTRidjFHSGZoaXhXQ0NRZHk5YWtUaz01' name='dmca-site-verification'/>
 <meta content='sha384-nR_rlxe856SaDU1aFtRLp6NHFEHRLcGD6gh93y5zc42E4LM6hDWehhSJDVAxOlzP' name='amp-script-src'/>
-<!-- JSON-LD - structured data markup Google Search -->
-<script class='yoast-schema-graph' type='application/ld+json'>
-    {
-      &quot;@context&quot;: &quot;http://schema.org&quot;,
-      &quot;@type&quot;: &quot;WebSite&quot;,
-      &quot;url&quot;: &quot;https://penaeducasi.blogspot.com/&quot;,
-      &quot;name&quot;: &quot;Pena Edukasi&quot;,
-      &quot;alternateName&quot;: &quot;Pena Edukasi&quot;,
-      &quot;description&quot;: &quot;Situs web pendidikan yang menyediakan berbagai informasi dan materi edukasi yang terpercaya dan memperioritaskan keamanan bagi pengguna.&quot;,
-      &quot;keywords&quot;: [&quot;pendidikan&quot;, &quot;edukasi&quot;, &quot;agama&quot;, &quot;belajar&quot;, &quot;mengajar&quot;, &quot;perangkat ajar&quot;, &quot;buku&quot;, &quot;soal pts&quot;, &quot;soal UM&quot;, &quot;PPG&quot;, &quot;sekolah&quot;, &quot;universitas&quot;, &quot;ekonomi&quot;, &quot;sejarah&quot;, &quot;tutorial&quot;, &quot;teknologi&quot;, &quot;destinasi&quot;, &quot;news&quot;],
-      &quot;image&quot;: &quot;https://blogger.googleusercontent.com/img/a/AVvXsEiTsSdqqRUu3UBjNCD4EWy0p6_m0Wn0mH_Us92-SIpGcqNtUT82uou7khlw5-kbEDJ8TIYIcqWvLLvjeXpuGEDFblenprpcP_D9i5UxCFkDQH_ZGU60NmXUXDl52orE9t42vkWJ_Y2EOtdMKycY3MOJPfKzXBqnFQimwExtRlYRWEIQddKQb0-2jdlxQ0MJ=s821&quot;,
-      &quot;inLanguage&quot;: &quot;id&quot;,
-      &quot;publisher&quot;: {
-        &quot;@type&quot;: &quot;Organization&quot;,
-        &quot;name&quot;: &quot;Pena Edukasi&quot;,
-        &quot;url&quot;: &quot;https://penaeducasi.blogspot.com/&quot;
-      },
-      &quot;author&quot;: {
-        &quot;@type&quot;: &quot;Person&quot;,
-        &quot;name&quot;: &quot;Sarima&quot;
-    }
-  </script>
 <b:comment> DNS Prefetch </b:comment>
 <link crossorigin='' href='https://www.blogger.com/' rel='preconnect'/>
 <link crossorigin='' href='https://fonts.googleapis.com/' rel='preconnect'/>
@@ -427,7 +404,13 @@
   src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfBBc4.woff2) format(&#39;woff2&#39;);
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
-</style> 
+</style>
+  <script>
+if(window.location.href == &#39;http://safelinkei.blogspot.com &#39;)
+{
+window.location=&quot;https://penaeducasi.blogspot.com&quot;;
+}
+</script>
 <b:if cond='!data:view.isLayoutMode'>
 <b:skin><![CDATA[/*
 -----------------------------------------------
@@ -441,7 +424,7 @@ Country     : Indonesia
    ==========================
 
   <Group description="Dimensi">
-    <Variable name="theme.width" description="Lebar Template" type="length" min="600px" max="2600px" default="1200px"  value="1150px"/>
+    <Variable name="theme.width" description="Lebar Template" type="length" min="600px" max="2600px" default="1200px"  value="1100px"/>
     <Variable name="header.height" description="Tinggi Header" type="length" min="20px" max="500px" default="55px"  value="55px"/>
   </Group>  
 
@@ -1391,9 +1374,10 @@ h1.entry_title {
 }
 #comments .check, #comments .hidden {
   display:none;
-}  
+} 
 
 /* --- Post Body --- */
+
 .post_body {
   margin-top:36px;
 }
@@ -2640,6 +2624,33 @@ h1.entry_title {
     margin:15px;
   }
 }
+.bonarTOC{border:5px solid #f7f0b8;box-shadow:1px 1px 0 #EDE396;background-color:#FFFFE0;color:#707037;line-height:1.4em;margin:30px auto;padding:20px 30px 20px 10px;font-family:oswald,arial;display:block;width:70%}.bonarTOC ol,.bonarTOC ul{margin:0;padding:0}.bonarTOC ul{list-style:none}.bonarTOC ol li,.bonarTOC ul li{padding:15px 0 0;margin:0 0 0 30px;font-size:15px}.bonarTOC a{color:#0080ff;text-decoration:none}.bonarTOC a:hover{text-decoration:underline}.bonarTOC button{background:#FFFFE0;font-family:oswald,arial;font-size:20px;position:relative;outline:none;cursor:pointer;border:none;color:#707037;padding:0 0 0 15px}.bonarTOC button:after{content:"\f0dc";font-family:FontAwesome;position:relative;left:10px;font-size:20px}
+
+#adslayoutleft {
+position:fixed; 
+top:0%; 
+margin-left:-150px; 
+float:right;
+background-color:#;
+z-index:10;
+}
+#adslayoutleft .idblogmaker {
+float:left;
+clear:both;
+} 
+#adslayoutleftright {
+float:right;
+position:fixed;
+top:0%;
+margin-left:974px;
+z-index:10;
+background-color:#;
+}
+#adslayoutleftright.idblogmakercom {
+float:left;
+clear:both;
+}
+
 ]]></b:skin>
 </b:if>
 
@@ -2685,18 +2696,6 @@ body#layout #gila_material_sidebar {
 ]]></b:template-skin>
 
 <b:if cond='data:view.isHomepage'>
-<script type='application/ld+json'>   
-{
-  &quot;@context&quot;: &quot;https://schema.org&quot;,
-  &quot;@type&quot;: &quot;WebSite&quot;,
-  &quot;url&quot;: &quot;<data:blog.canonicalHomepageUrl/>&quot;,
-  &quot;potentialAction&quot;: {
-    &quot;@type&quot;: &quot;SearchAction&quot;,
-    &quot;target&quot;: &quot;<data:blog.canonicalHomepageUrl/>/search?q={search_term_string}&quot;,
-    &quot;query-input&quot;: &quot;required name=search_term_string&quot;
-  }
-}
- </script>
  </b:if>
 
 <script>
@@ -3206,7 +3205,6 @@ var lokasiIklanTengah2 = 8;
   <b:defaultmarkup type='HTML'/>
   
 </b:defaultmarkups>
-  <script async='async' custom-element='amp-lightbox' src='https://cdn.ampproject.org/v0/amp-lightbox-0.1.js'/>
   <script async='async' custom-element='amp-sidebar' src='https://cdn.ampproject.org/v0/amp-sidebar-0.1.js'/>
   <script async='async' custom-element='amp-iframe' src='https://cdn.ampproject.org/v0/amp-iframe-0.1.js'/> 
 <!-- Global site tag (gtag.js) - Google Analytics -->  
@@ -3326,8 +3324,28 @@ var marquee_speed = &quot;10&quot;;
 var close_button = false;
 var info_text = true;
 </script>
+<script type='text/javascript'>              
+//<![CDATA[           
+//*************TOC plugin           
+function bonarTOC() {var bonarTOC=i=headlength=gethead=0;           
+headlength = document.getElementById("post-toc").getElementsByTagName("h2").length;for (i = 0; i < headlength; i++)           
+{gethead = document.getElementById("post-toc").getElementsByTagName("h2")[i].textContent;document.getElementById("post-toc").getElementsByTagName("h2")[i].setAttribute("id", "point"+i);bonarTOC = "<li><a href='#point"+i+"'>"+gethead+"</a></li>";document.getElementById("bonarTOC").innerHTML += bonarTOC;}}function bonarToggle() {var bonar = document.getElementById('bonarTOC');if (bonar .style.display === 'none') {bonar .style.display = 'block';} else {bonar .style.display = 'none';}}           
+//]]>              
+</script>
+<style/>
+<include expiration='7d' path='/assets/**.css'/>
+
+<include expiration='7d' path='/assets/**.js'/>
+
+<include expiration='3d' path='/assets/**.gif'/>
+
+<include expiration='3d' path='/assets/**.jpeg'/>
+
+<include expiration='3d' path='/assets/**.jpg'/>
+
+<include expiration='3d' path='/assets/**.png'/>
 </head>
-<body>
+<body>Verification: b6d229cbb46770a2
 <div itemscope='itemscope' itemtype='http://schema.org/Blog' style='display: none;'>
 <meta content='Pena Edukasi' itemprop='name'/>
 <meta content='PENA EDUKASI - Chanel edukasi yang menyediakan berbagai informasi dan ilmu pengetahuan yang terpercaya dan memperioritaskan keamanan bagi pengguna.' itemprop='description'/>
@@ -3344,13 +3362,6 @@ var info_text = true;
   <b:class cond='data:view.isPost' name='isPost'/>
   <b:class cond='data:view.isError' name='isError'/>
 <b:if cond='data:view.isHomepage'>
-      <!-- schema markup homepage -->
-      <script type='application/ld+json'>{
-      &quot;@context&quot;: &quot;http://schema.org&quot;,
-      &quot;@type&quot;: &quot;WebPage&quot;,
-      &quot;name&quot; : &quot;<data:blog.pageTitle/>&quot;,
-      &quot;url&quot; : &quot;<data:blog.url/>&quot;
-      }</script>
     </b:if>
   
 <div id='gila_material_header_container'>
@@ -3362,9 +3373,9 @@ var info_text = true;
         </svg>
       </button>
       <b:section class='header' id='header' maxwidgets='1' name='Header Logo and Title' showaddelement='no'>
-        <b:widget id='Header1' locked='true' title='Pena - Edukasi (Header)' type='Header' version='2' visible='true'>
+        <b:widget id='Header1' locked='true' title='Pena Edukasi (Header)' type='Header' version='2' visible='true'>
           <b:widget-settings>
-            <b:widget-setting name='displayUrl'>https://blogger.googleusercontent.com/img/a/AVvXsEiTsSdqqRUu3UBjNCD4EWy0p6_m0Wn0mH_Us92-SIpGcqNtUT82uou7khlw5-kbEDJ8TIYIcqWvLLvjeXpuGEDFblenprpcP_D9i5UxCFkDQH_ZGU60NmXUXDl52orE9t42vkWJ_Y2EOtdMKycY3MOJPfKzXBqnFQimwExtRlYRWEIQddKQb0-2jdlxQ0MJ=s821</b:widget-setting>
+            <b:widget-setting name='displayUrl'>https://rawcdn.githack.com/Hayatul1/Pena-Edukasi/03c58b827155d5c14f17a964e698a5abe75a1d7f/logo%20PENA%20-%20EDUKASI.png?raw=true</b:widget-setting>
             <b:widget-setting name='displayHeight'>213</b:widget-setting>
             <b:widget-setting name='sectionWidth'>1017</b:widget-setting>
             <b:widget-setting name='useImage'>true</b:widget-setting>
@@ -3437,14 +3448,7 @@ var info_text = true;
         <b:section class='main_navigation_menu' id='main_navigation_menu' maxwidgets='1' name='Main Navigation Menu' preferred='yes'>
           <b:widget id='HTML2' locked='true' title='Navmenu' type='HTML' visible='true'>
             <b:widget-settings>
-              <b:widget-setting name='content'><![CDATA[<script src='https://rawcdn.githack.com/Hayatul1/Safelinkei/d922e8d2de8001c7c10f28dd2d2c380c9ecbef7f/breakingnews.js' type='text/javascript'></script>
-<script type='text/javascript'>
-//<![CDATA[
-document.getElementById("breaking-newsticker").appendChild(document.getElementById("post_breakingnews"));
-//]]]]><![CDATA[>
-</script>
-
-<!-- menu section -->
+              <b:widget-setting name='content'><![CDATA[<!-- menu section -->
         <div class="td-mobile-content">
             <div class="menu-menu-utama-container"><ul id="menu-menu-utama" class="td-mobile-main-menu"><li id="menu-item-898" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-first menu-item-898">
 
@@ -3551,7 +3555,7 @@ document.getElementById("breaking-newsticker").appendChild(document.getElementBy
 <b:if cond='data:view.isError'>
   <div class='error_wrapper'>
     <a class='header-logo' href='https://penaeducasi.blogspot.com/'/>
-    <img alt='Pena Edukasi' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXFaPPnwrufnEtF5N4PDbAmG3xcpJaubhxZCMtkbwjioEem0NWq2j0HNKKf6lXsN3HyyJ9h2_nhrVJIL2uFlrGuw5EwosDe8eFbSy8H539Y-Mj4FOBOiDVgHR-EkhQ8pn_egunC9eTWii0ve7uD2btUeDPfpHk0_-RfOKbmh6nCEZs7Sk/s1600/PENA%20EDUKASI_waifu2x_photo_noise3_scale%20(2).png'/>
+    <img alt='Pena Edukasi' src='https://rawcdn.githack.com/Hayatul1/Pena-Edukasi/03c58b827155d5c14f17a964e698a5abe75a1d7f/logo%20PENA%20-%20EDUKASI.png?raw=true'/>
     <a href='https://penaeducasi.blogspot.com/p/daftar-isi.html'/>
     <h2 class='header-title'>Daftar Isi</h2>
     <style type='text/css'>
@@ -3583,23 +3587,15 @@ border-radius:4px;-moz-border-radius:4px;
   <b:section class='ad_under_header' id='ad_under_header' maxwidgets='1' name='Ad Under Header' preferred='yes'>
     <b:widget id='HTML1' locked='true' title='Ad Under Header' type='HTML' version='2' visible='true'>
       <b:widget-settings>
-        <b:widget-setting name='content'><![CDATA[<div id="iframe-container">
-<!-- Pena_Edukasi-->
-<div class="custom_headerads">
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6293270434810918"
-     data-ad-slot="5895579766"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-</div>
-<div class="site grid-container container hfeed" id="page">
-<div class="site-content" id="content">
-<div class="content-area" id="primary">
-<main class="site-main" id="main"></main></div></div></div></div>]]></b:widget-setting>
+        <b:widget-setting name='content'><![CDATA[<a href=" https://rawcdn.githack.com/Hayatul1/Pena-Edukasi/6d007805ed839ce5fcb5cea30c246f165d90caac/BANNER%20PENA%20EDUKASI%20(1).png ">
+  <img src=" https://rawcdn.githack.com/Hayatul1/Pena-Edukasi/6d007805ed839ce5fcb5cea30c246f165d90caac/BANNER%20PENA%20EDUKASI%20(1).png" alt="BANNER PENA EDUKASI" class="responsive-image" />
+</a>
+<style>
+  .responsive-image {
+    width: 100%; /* Gambar akan mengisi seluruh lebar container-nya */
+    height: auto; /* Tinggi gambar akan disesuaikan secara otomatis */
+  }
+</style>]]></b:widget-setting>
       </b:widget-settings>
       <b:includable id='main'>
   <div class='widget-content'>
@@ -4286,7 +4282,9 @@ border-radius:4px;-moz-border-radius:4px;
   <b:include cond='data:view.isPost' name='entryPostMeta'/>
   <div class='post_body entry_content' id='post_body'>
     <div id='post_middle'>
-      <data:post.body/> 
+      <div id='post-toc'><data:post.body/></div>
+      <b:if cond='data:view.isPost'>
+</b:if>
       <b:if cond='data:blog.pageType == &quot;item&quot;'>
 <div style='float:left; margin: 0px 10px 0px 0px'>
 &lt;script async src=&quot;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6293270434810918&quot;
@@ -4367,28 +4365,130 @@ border-radius:4px;-moz-border-radius:4px;
       </b:includable>
           <b:includable id='postLocation'/>
           <b:includable id='postMeta' var='post'>
-          <script type='application/ld+json'>
+<b:if cond='data:view.isSingleItem'>
+<script type='application/ld+json'>
+{&quot;@context&quot;:&quot;https://schema.org&quot;,
+&quot;@graph&quot;:[{&quot;@type&quot;:&quot;Organization&quot;,
+&quot;@id&quot;:&quot;<data:blog.canonicalHomepageUrl/>#organization&quot;,
+&quot;name&quot;:&quot;<data:blog.title/>&quot;,
+&quot;url&quot;:&quot;<data:blog.canonicalHomepageUrl/>&quot;,
+&quot;sameAs&quot;:[ &quot;https://www.facebook.com/Sarimah Azizah&quot;,
+&quot;https://www.youtube.com/username&quot;,
+&quot;https://twitter.com/@PenaEdukasi&quot;,
+&quot;https://github.com/Pena-Edukasi&quot;,
+&quot;https://pinterest.com/makky300687&quot;,
+&quot;https://www.instagram.com/Pena Edukasi&quot;], &quot;logo&quot;:{&quot;@type&quot;:&quot;ImageObject&quot;,
+&quot;@id&quot;:&quot;<data:blog.canonicalHomepageUrl/>#logo&quot;,
+&quot;url&quot;:&quot;https://rawcdn.githack.com/Hayatul1/Pena-Edukasi/03c58b827155d5c14f17a964e698a5abe75a1d7f/logo%20PENA%20-%20EDUKASI.png?raw=true&quot;,
+&quot;width&quot;: 512, &quot;height&quot;: 512,
+&quot;caption&quot;:&quot;<data:blog.title/>&quot;},&quot;image&quot;:{&quot;@id&quot;:&quot;<data:blog.canonicalHomepageUrl/>#logo&quot;},&quot;legalName&quot;:&quot;<data:blog.title/>&quot;},{&quot;@type&quot;:&quot;WebSite&quot;,
+&quot;@id&quot;:&quot;<data:blog.canonicalHomepageUrl/>#website&quot;,
+&quot;url&quot;:&quot;<data:blog.canonicalHomepageUrl/>&quot;,
+&quot;name&quot;:&quot;<data:blog.title/>&quot;,
+&quot;inLanguage&quot;:&quot;id-ID&quot;,
+&quot;description&quot;:&quot;<data:this.description/>&quot;,
+&quot;publisher&quot;:{&quot;@id&quot;:&quot;<data:blog.canonicalHomepageUrl/>#organization&quot;},&quot;potentialAction&quot;:{&quot;@type&quot;:&quot;SearchAction&quot;,
+&quot;target&quot;:&quot;<data:blog.canonicalHomepageUrl/>search?q={search_term_string}&quot;,
+&quot;query-input&quot;:&quot;required name=search_term_string&quot;}},{&quot;@type&quot;:&quot;ImageObject&quot;,
+&quot;@id&quot;:&quot;<data:post.url.canonical/>#primaryimage&quot;,
+&quot;url&quot;:&quot;<b:eval expr='(data:post.featuredImage ? resizeImage(data:post.featuredImage, 700, &quot;700:366&quot;) : &quot;https://rawcdn.githack.com/Hayatul1/Pena-Edukasi/03c58b827155d5c14f17a964e698a5abe75a1d7f/logo%20PENA%20-%20EDUKASI.png?raw=true&quot;).jsonEscaped'/>&quot;,
+&quot;width&quot;: 700, &quot;height&quot;: 366, &quot;caption&quot;:&quot;<data:post.title/>&quot;},{&quot;@type&quot;:[&quot;WebPage&quot;], &quot;@id&quot;:&quot;<data:post.url.canonical/>#webpage&quot;,
+&quot;url&quot;:&quot;<data:post.url.canonical/>&quot;,
+&quot;name&quot;:&quot;<data:post.title/> - <data:blog.title/>&quot;,
+&quot;isPartOf&quot;:{&quot;@id&quot;:&quot;<data:blog.canonicalHomepageUrl/>#website&quot;},&quot;inLanguage&quot;:&quot;id-ID&quot;,
+&quot;primaryImageOfPage&quot;:{&quot;@id&quot;:&quot;<data:post.url.canonical/>#primaryimage&quot;},&quot;datePublished&quot;:&quot;<data:post.date.iso8601/>&quot;,
+&quot;dateModified&quot;:&quot;<data:post.lastUpdated.iso8601/>&quot;,
+&quot;description&quot;:&quot;<b:eval expr='data:blog.metaDescription.escaped ? data:blog.metaDescription.escaped : data:this.description'/>&quot;,
+&quot;breadcrumb&quot;:{&quot;@id&quot;:&quot;<data:post.url.canonical/>#breadcrumb&quot;}},{&quot;@type&quot;:&quot;BreadcrumbList&quot;,
+&quot;@id&quot;:&quot;<data:post.url.canonical/>#breadcrumb&quot;,
+&quot;itemListElement&quot;:[{&quot;@type&quot;:&quot;ListItem&quot;,
+&quot;position&quot;: 1, &quot;item&quot;:{&quot;@type&quot;:&quot;WebPage&quot;,
+&quot;@id&quot;:&quot;<data:blog.canonicalHomepageUrl/>&quot;,
+&quot;url&quot;:&quot;<data:blog.canonicalHomepageUrl/>&quot;,
+&quot;name&quot;:&quot;Home&quot;}},{&quot;@type&quot;:&quot;ListItem&quot;,
+&quot;position&quot;: 2, &quot;item&quot;:{&quot;@type&quot;:&quot;WebPage&quot;,
+&quot;@id&quot;:&quot;<b:if cond='data:post.labels'><b:loop index='num' values='data:post.labels' var='label'><b:if cond='data:num == (data:post.labels.size - 1)'><data:label.url.canonical/></b:if></b:loop></b:if>&quot;,
+&quot;url&quot;:&quot;<b:if cond='data:post.labels'><b:loop index='num' values='data:post.labels' var='label'><b:if cond='data:num == (data:post.labels.size - 1)'><data:label.url.canonical/></b:if></b:loop></b:if>&quot;,
+&quot;name&quot;:&quot;<b:if cond='data:post.labels'><b:loop index='num' values='data:post.labels' var='label'><b:if cond='data:num == (data:post.labels.size - 1)'><data:label.name/></b:if></b:loop></b:if>&quot;}},{&quot;@type&quot;:&quot;ListItem&quot;,
+&quot;position&quot;: 3, &quot;item&quot;:{&quot;@type&quot;:&quot;WebPage&quot;,
+&quot;@id&quot;:&quot;<data:post.url.canonical/>&quot;,
+&quot;url&quot;:&quot;<data:post.url.canonical/>&quot;,
+&quot;name&quot;:&quot;<data:post.title/>&quot;}}]},{&quot;@type&quot;:&quot;Article&quot;,
+&quot;@id&quot;:&quot;<data:post.url.canonical/>#article&quot;,
+&quot;isPartOf&quot;:{&quot;@id&quot;:&quot;<data:post.url.canonical/>#webpage&quot;},&quot;author&quot;:{&quot;@id&quot;:&quot;<data:post.author.profileUrl/>&quot;},&quot;headline&quot;:&quot;<data:post.title/>&quot;,
+&quot;datePublished&quot;:&quot;<data:post.date.iso8601/>&quot;,
+&quot;dateModified&quot;:&quot;<data:post.lastUpdated.iso8601/>&quot;,
+&quot;mainEntityOfPage&quot;:{&quot;@id&quot;:&quot;<data:post.url.canonical/>#webpage&quot;},&quot;publisher&quot;:{&quot;@id&quot;:&quot;<data:blog.canonicalHomepageUrl/>#organization&quot;},&quot;image&quot;:{&quot;@id&quot;:&quot;<data:post.url.canonical/>#primaryimage&quot;},&quot;keywords&quot;:&quot;<data:post.title/>&quot;,
+&quot;articleSection&quot;:&quot;<b:if cond='data:post.labels'><b:loop values='data:post.labels' var='label'><data:label.name/>, </b:loop></b:if>&quot;,
+&quot;inLanguage&quot;:&quot;id-ID&quot;},{&quot;@type&quot;:[&quot;Person&quot;], &quot;@id&quot;:&quot;<data:post.author.profileUrl/>&quot;,
+&quot;name&quot;:&quot;<data:post.author.name.jsonEscaped/>&quot;,
+&quot;image&quot;:{&quot;@type&quot;:&quot;ImageObject&quot;,
+&quot;@id&quot;:&quot;<data:blog.canonicalHomepageUrl/>#authorlogo&quot;,
+&quot;url&quot;:&quot;<b:with value='data:post.author.authorPhoto.image ? resizeImage(data:post.author.authorPhoto.image, 50, &quot;1:1&quot;) : resizeImage(data:post.featuredImage, 50, &quot;1:1&quot;)' var='image'><data:image/></b:with>&quot;,
+&quot;caption&quot;:&quot;<data:post.author.name.jsonEscaped/>&quot;},&quot;sameAs&quot;:[ &quot;https://www.facebook.com/username&quot;,
+&quot;https://www.youtube.com/username&quot;,
+&quot;https://twitter.com/@PenaEdukasi&quot;,
+&quot;https://github.com/Pena-Edukasi&quot;,
+&quot;https://pinterest.com/makky300687&quot;,
+&quot;https://www.instagram.com/Pena Edukasi&quot;]}]}</script>
+<script type='application/ld+json'>
+{
+    &quot;@context&quot;: &quot;https://schema.org&quot;,
+    &quot;@type&quot;: &quot;BreadcrumbList&quot;,
+    &quot;itemListElement&quot;: [
         {
-            &quot;@context&quot;: &quot;http://schema.org&quot;,
-            &quot;@type&quot;: &quot;BlogPosting&quot;,
-            &quot;mainEntityOfPage&quot;: {
-                &quot;@type&quot;: &quot;WebPage&quot;,
-                &quot;@id&quot;: &quot;<data:post.url.canonical.jsonEscaped/>&quot;
-            },
-            &quot;headline&quot;: &quot;<data:post.title.jsonEscaped/>&quot;,
-            &quot;description&quot;: &quot;<b:eval expr='(data:post.body snippet { length: 150, links: false, linebreaks: false, ellipsis: true }).jsonEscaped'/>&quot;,
-            &quot;datePublished&quot;: &quot;<data:post.date.iso8601.jsonEscaped/>&quot;,
-            &quot;dateModified&quot;: &quot;<data:post.lastUpdated.iso8601.jsonEscaped/>&quot;,
-            <b:include name='postMetadataJSONImage'/>
-            <b:include name='postMetadataJSONPublisher'/>
-            &quot;author&quot;: {
-                &quot;url&quot;: &quot;<data:blog.canonicalHomepageUrl.jsonEscaped/>&quot;,
-                &quot;@type&quot;: &quot;Person&quot;,
-                &quot;name&quot;: &quot;<data:post.author.name.jsonEscaped/>&quot;
-            }
+            &quot;@type&quot;: &quot;ListItem&quot;,
+            &quot;position&quot;: 1,
+            &quot;name&quot;: &quot;Home&quot;,
+            &quot;item&quot;: &quot;https://penaeducasi.blogspot.com/&quot;
+        },
+        {
+            &quot;@type&quot;: &quot;ListItem&quot;,
+            &quot;position&quot;: 2,
+            &quot;name&quot;: &quot;Ibadah&quot;,
+            &quot;item&quot;: &quot;https://penaeducasi.blogspot.com/search/label/Ibadah&quot;
+        },
+        {
+            &quot;@type&quot;: &quot;ListItem&quot;,
+            &quot;position&quot;: 3,
+            &quot;name&quot;: &quot;Pendidikan&quot;,
+            &quot;item&quot;: &quot;https://penaeducasi.blogspot.com/search/label/Pendidikan&quot;
+        },
+        {
+            &quot;@type&quot;: &quot;ListItem&quot;,
+            &quot;position&quot;: 4,
+            &quot;name&quot;: &quot;Ekonomi&quot;,
+            &quot;item&quot;: &quot;https://penaeducasi.blogspot.com/search/label/Ekonomi&quot;
+        },
+        {
+            &quot;@type&quot;: &quot;ListItem&quot;,
+            &quot;position&quot;: 5,
+            &quot;name&quot;: &quot;Sejarah&quot;,
+            &quot;item&quot;: &quot;https://penaeducasi.blogspot.com/search/label/Sejarah&quot;
+        },
+        {
+            &quot;@type&quot;: &quot;ListItem&quot;,
+            &quot;position&quot;: 6,
+            &quot;name&quot;: &quot;Tutorial&quot;,
+            &quot;item&quot;: &quot;https://penaeducasi.blogspot.com/search/label/Tutorial&quot;
+        },
+        {
+            &quot;@type&quot;: &quot;ListItem&quot;,
+            &quot;position&quot;: 7,
+            &quot;name&quot;: &quot;Destinasi&quot;,
+            &quot;item&quot;: &quot;https://penaeducasi.blogspot.com/search/label/Destinasi&quot;
+        },
+        {
+            &quot;@type&quot;: &quot;ListItem&quot;,
+            &quot;position&quot;: 8,
+            &quot;name&quot;: &quot;Sekolah&quot;,
+            &quot;item&quot;: &quot;https://penaeducasi.blogspot.com/search/label/Sekolah&quot;
         }
-        </script>
-        </b:includable>
+    ]
+}
+</script>
+</b:if>
+</b:includable>
           <b:includable id='postMetadataJSONImage'>
   &quot;image&quot;: {
     &quot;@type&quot;: &quot;ImageObject&quot;,
@@ -4774,17 +4874,9 @@ function repText(id) {var a = document.getElementById(id); if (!a) return; var b
       <b:if cond='data:view.isLayoutMode or data:view.isPost'>
         <div class='ad_widget'>
 <b:section class='top_ad' id='top_ad' maxwidgets='1' name='Top Ad in Posts' showaddelement='yes'>
-  <b:widget id='HTML996' locked='true' title='iframe 02' type='HTML' version='2' visible='true'>
+  <b:widget id='HTML996' locked='true' title='iframe 02' type='HTML' version='2' visible='false'>
     <b:widget-settings>
-      <b:widget-setting name='content'><![CDATA[<!-- WP QUADS - Quick AdSense Reloaded v.2.0.83 Content AdSense async --> 
-<ins class="adsbygoogle"
-style="display:block;"
-data-ad-format="auto"
-data-ad-client="ca-pub-6293270434810918"
-data-ad-slot="5895579766"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<!-- end WP QUADS -->]]></b:widget-setting>
+      <b:widget-setting name='content'/>
     </b:widget-settings>
     <b:includable id='main'>
   <!--<b:include name='widget-title'/>-->
@@ -4797,7 +4889,7 @@ data-ad-slot="5895579766"></ins>
   </b:widget>
 </b:section>
 <b:section class='middle_ad1' id='middle_ad1' maxwidgets='1' name='Middle Ad in Posts 1' showaddelement='yes'>
-  <b:widget id='HTML997' locked='true' title='iframe 03' type='HTML' version='2' visible='true'>
+  <b:widget id='HTML997' locked='true' title='iframe 03' type='HTML' version='2' visible='false'>
     <b:widget-settings>
       <b:widget-setting name='content'><![CDATA[<script async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6293270434810918" crossorigin="anonymous" ></script>
 <ins class="adsbygoogle"
@@ -4820,18 +4912,9 @@ data-ad-slot="5895579766"></ins>
   </b:widget>
 </b:section>
 <b:section class='parallax_ad' id='parallax_ad' maxwidgets='1' name='Parallax Ad In Posts' showaddelement='yes'>
-  <b:widget id='HTML7' locked='true' title='iframe 04' type='HTML' version='2' visible='true'>
+  <b:widget id='HTML7' locked='true' title='iframe 04' type='HTML' version='2' visible='false'>
     <b:widget-settings>
-      <b:widget-setting name='content'><![CDATA[<script async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6293270434810918" crossorigin="anonymous" ></script>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-format="fluid"
-     data-ad-layout-key="-7e+ew-1b-28+9a"
-     data-ad-client="ca-pub-6293270434810918"
-     data-ad-slot="9957375010"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>]]></b:widget-setting>
+      <b:widget-setting name='content'/>
     </b:widget-settings>
     <b:includable id='main'>
   <!--<b:include name='widget-title'/>-->
@@ -4848,17 +4931,9 @@ data-ad-slot="5895579766"></ins>
   </b:widget>
 </b:section>
 <b:section class='middle_ad2' id='middle_ad2' maxwidgets='1' name='Middle Ad in Posts 2' showaddelement='yes'>
-  <b:widget id='HTML998' locked='true' title='iframe 05' type='HTML' version='2' visible='true'>
+  <b:widget id='HTML998' locked='true' title='iframe 05' type='HTML' version='2' visible='false'>
     <b:widget-settings>
-      <b:widget-setting name='content'><![CDATA[<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-6293270434810918"
-     data-ad-slot="3772807284"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>]]></b:widget-setting>
+      <b:widget-setting name='content'/>
     </b:widget-settings>
     <b:includable id='main'>
   <!--<b:include name='widget-title'/>-->
@@ -4871,16 +4946,9 @@ data-ad-slot="5895579766"></ins>
   </b:widget>
 </b:section>
 <b:section class='bottom_ad' id='bottom_ad' maxwidgets='1' name='Bottom Ad in Posts' showaddelement='yes'>
-  <b:widget id='HTML999' locked='true' title='iframe 06' type='HTML' version='2' visible='true'>
+  <b:widget id='HTML999' locked='true' title='iframe 06' type='HTML' version='2' visible='false'>
     <b:widget-settings>
-      <b:widget-setting name='content'><![CDATA[<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-format="autorelaxed"
-     data-ad-client="ca-pub-6293270434810918"
-     data-ad-slot="8096328193"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>]]></b:widget-setting>
+      <b:widget-setting name='content'/>
     </b:widget-settings>
     <b:includable id='main'>
   <!--<b:include name='widget-title'/>-->
@@ -4954,6 +5022,39 @@ bacaJuga.innerHTML = &quot;&quot;;
     </div>
     <aside id='gila_material_sidebar'>
       <b:section class='sidebar' id='sidebar' name='Sidebar Menu' preferred='yes'>
+        <b:widget id='HTML19' locked='false' title='pengunjung' type='HTML' visible='false'>
+          <b:widget-settings>
+            <b:widget-setting name='content'/>
+          </b:widget-settings>
+          <b:includable id='main'>
+  <b:include name='widget-title'/>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+</b:includable>
+        </b:widget>
+        <b:widget id='HTML17' locked='false' title='iklan samping' type='HTML' visible='false'>
+          <b:widget-settings>
+            <b:widget-setting name='content'/>
+          </b:widget-settings>
+          <b:includable id='main'>
+  <b:include name='widget-title'/>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+</b:includable>
+        </b:widget>
+        <b:widget id='HTML16' locked='false' title='Telegram' type='HTML' visible='false'>
+          <b:widget-settings>
+            <b:widget-setting name='content'/>
+          </b:widget-settings>
+          <b:includable id='main'>
+  <b:include name='widget-title'/>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+</b:includable>
+        </b:widget>
         <b:widget id='HTML13' locked='false' title='Breaking News' type='HTML' visible='true'>
           <b:widget-settings>
             <b:widget-setting name='content'><![CDATA[<div id="iframe-container">
@@ -4971,11 +5072,43 @@ document.getElementById("breaking-newsticker").appendChild(document.getElementBy
   </div>
 </b:includable>
         </b:widget>
-        <b:widget id='HTML14' locked='false' title='Youtube' type='HTML' visible='false'>
+        <b:widget id='HTML14' locked='false' title='Maps' type='HTML' visible='false'>
           <b:widget-settings>
-            <b:widget-setting name='content'><![CDATA[<script src="https://apis.google.com/js/platform.js"></script>
+            <b:widget-setting name='content'><![CDATA[<div class="map-container">
+  <div id="map"></div>
+</div>
 
-<div class="g-ytsubscribe" data-channelid="UC1TXc_6rw0kRV57tSccEiqA" data-layout="full" data-count="default"></div>]]></b:widget-setting>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGc1Aizms-ghvJquKrwjz0MZE5yU-dkVM"></script>
+
+<script>
+  function initMap() {
+    // Replace with your desired location coordinates
+    const coordinates = { lat: -5.8072081, lng: 112.6806983 };
+
+    const map = new google.maps.Map(document.getElementById("map"), {
+      zoom: 8,
+      center: coordinates,
+    });
+  }
+</script>
+
+<style>
+  /* Make the Google Maps responsive */
+  .map-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+  }
+
+  .map-container #map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+</style>]]></b:widget-setting>
           </b:widget-settings>
           <b:includable id='main'>
   <b:include name='widget-title'/>
@@ -5014,17 +5147,46 @@ document.getElementById("breaking-newsticker").appendChild(document.getElementBy
         </b:widget>
         <b:widget id='HTML12' locked='false' title='presentasi' type='HTML' visible='true'>
           <b:widget-settings>
-            <b:widget-setting name='content'><![CDATA[<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6293270434810918"
-     crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-format="fluid"
-     data-ad-layout-key="-5y+c9-j-4a+nm"
-     data-ad-client="ca-pub-6293270434810918"
-     data-ad-slot="2492714939"></ins>
+            <b:widget-setting name='content'><![CDATA[<div class="iframe-container">
+  <div id="player"></div>
+</div>
 <script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>]]></b:widget-setting>
+var tag = document.createElement('script');
+  tag.src = "https://www.youtube.com/iframe_api";
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+var player;
+  function onYouTubeIframeAPIReady() {
+    player = new YT.Player('player', {
+      width: '100%',
+      videoId: 'scSxpIkKTmk?si=zIuj7q_WaAHzQ81M',
+      playerVars: { 'autoplay': 1, 'playsinline': 1 },
+      events: {
+        'onReady': onPlayerReady
+      }
+    });
+  }
+ function onPlayerReady(event) {
+     event.target.mute();
+    event.target.playVideo();
+  }
+</script>
+<style>
+/* Make the youtube video responsive */
+  .iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+  }
+  .iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+</style>]]></b:widget-setting>
           </b:widget-settings>
           <b:includable id='main'>
   <b:include name='widget-title'/>
@@ -5162,7 +5324,7 @@ document.getElementById("breaking-newsticker").appendChild(document.getElementBy
     </b:if>
   </b:includable>
         </b:widget>
-        <b:widget id='HTML9' locked='false' title='' type='HTML' visible='true'>
+        <b:widget id='HTML9' locked='false' title='' type='HTML' visible='false'>
           <b:widget-settings>
             <b:widget-setting name='content'><![CDATA[<ins class="adsbygoogle"
      style="display:block"
@@ -5484,7 +5646,7 @@ document.getElementById("breaking-newsticker").appendChild(document.getElementBy
   </a>
 </b:includable>
         </b:widget>
-        <b:widget id='HTML10' locked='false' title='' type='HTML' visible='true'>
+        <b:widget id='HTML10' locked='false' title='' type='HTML' visible='false'>
           <b:widget-settings>
             <b:widget-setting name='content'><![CDATA[<ins class="adsbygoogle"
      style="display:block"
@@ -5505,6 +5667,75 @@ document.getElementById("breaking-newsticker").appendChild(document.getElementBy
         </b:widget>
       </b:section>
     <b:section class='sidebar_sticky' id='sidebar_sticky' name='Sticky Sidebar Menu' preferred='yes'>
+      <b:widget id='HTML18' locked='false' title='iklan samping' type='HTML' visible='false'>
+        <b:widget-settings>
+          <b:widget-setting name='content'><![CDATA[<div id='adslayoutleft'><div class='idblogmaker'>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6293270434810918"
+     crossorigin="anonymous"></script>
+<!-- ads vertikal -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6293270434810918"
+     data-ad-slot="5990889085"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+</div></div>
+
+
+<div id='adslayoutleftright'><div class='idblogmakercom'>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6293270434810918"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="autorelaxed"
+     data-ad-client="ca-pub-6293270434810918"
+     data-ad-slot="1615818086"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+</div></div>]]></b:widget-setting>
+        </b:widget-settings>
+        <b:includable id='main'>
+  <b:include name='widget-title'/>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+</b:includable>
+      </b:widget>
+      <b:widget id='Stats1' locked='false' title='Total Tayangan Halaman' type='Stats' visible='true'>
+        <b:widget-settings>
+          <b:widget-setting name='showGraphicalCounter'>true</b:widget-setting>
+          <b:widget-setting name='showAnimatedCounter'>true</b:widget-setting>
+          <b:widget-setting name='showSparkline'>true</b:widget-setting>
+          <b:widget-setting name='sparklineStyle'>BLACK_TRANSPARENT</b:widget-setting>
+          <b:widget-setting name='timeRange'>ALL_TIME</b:widget-setting>
+        </b:widget-settings>
+        <b:includable id='main'>
+  <b:include name='widget-title'/>
+  <b:include name='content'/>
+</b:includable>
+        <b:includable id='content'>
+  <div class='widget-content'>
+    <!-- Content is going to be visible when data will be fetched from server. -->
+    <div expr:id='data:widget.instanceId + &quot;_content&quot;' style='display: none;'>
+      <!-- Counter and image will be injected later via AJAX call. -->
+      <b:if cond='data:showSparkline'>
+        <script src='https://www.gstatic.com/charts/loader.js' type='text/javascript'/>
+        <span expr:id='data:widget.instanceId + &quot;_sparklinespan&quot;' style='display:inline-block; width:75px; height:30px'/>
+      </b:if>
+      <span expr:class='&quot;counter-wrapper &quot; + (data:showGraphicalCounter ? &quot;graph-counter-wrapper&quot; : &quot;text-counter-wrapper&quot;)' expr:id='data:widget.instanceId + &quot;_totalCount&quot;'>
+      </span>
+    </div>
+  </div>
+</b:includable>
+      </b:widget>
       <b:widget id='Image2' locked='false' title='' type='Image' visible='false'>
         <b:widget-settings>
           <b:widget-setting name='displayUrl'>https://blogger.googleusercontent.com/img/a/AVvXsEi3DCTrCfynzcrPmKrbarB2IkMwn6jOOUkyHM-56Uy1xBc4nzHWRaSZ-b0sL3e2YC8xvJcFkHDfnLYOGDkFV64Zhb9Y12LUGG7TXyUwwpt93ToGnGf-_JopRTdqcDlZhiCTXNy52nKqKiVBrV1ozMcqdPO7vDCJVgb1QRq8XSpvKJPs_XgDMqfYPaQV4qdq=s125</b:widget-setting>
@@ -5589,9 +5820,9 @@ document.getElementById("breaking-newsticker").appendChild(document.getElementBy
   </div>
 </b:includable>
       </b:widget>
-      <b:widget id='HTML6' locked='false' title='Viewers' type='HTML' visible='false'>
+      <b:widget id='HTML6' locked='false' title='Viewers' type='HTML' visible='true'>
         <b:widget-settings>
-          <b:widget-setting name='content'><![CDATA[<a href="https://info.flagcounter.com/iipZ"><img src="https://s11.flagcounter.com/count2/iipZ/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0" /></a>]]></b:widget-setting>
+          <b:widget-setting name='content'><![CDATA[<a href="https://info.flagcounter.com/iipZ"><img src="https://s11.flagcounter.com/count2/iipZ/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_20/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0" /></a>]]></b:widget-setting>
         </b:widget-settings>
         <b:includable id='main'>
   <b:include name='widget-title'/>
@@ -5622,7 +5853,7 @@ document.getElementById("breaking-newsticker").appendChild(document.getElementBy
   </div>
 </b:includable>
       </b:widget>
-      <b:widget id='HTML4' locked='false' title='' type='HTML' visible='true'>
+      <b:widget id='HTML4' locked='false' title='' type='HTML' visible='false'>
         <b:widget-settings>
           <b:widget-setting name='content'><![CDATA[<ins class="adsbygoogle"
      style="display:block"
@@ -5665,10 +5896,9 @@ document.getElementById("breaking-newsticker").appendChild(document.getElementBy
  </div>
 </b:includable>
       </b:widget>
-      <b:widget id='HTML15' locked='false' title='Digital Marketing' type='HTML' visible='true'>
+      <b:widget id='HTML15' locked='false' title='Digital Marketing' type='HTML' visible='false'>
         <b:widget-settings>
-          <b:widget-setting name='content'><![CDATA[<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6293270434810918"
-     crossorigin="anonymous"></script>
+          <b:widget-setting name='content'><![CDATA[<script async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6293270434810918" crossorigin="anonymous" ></script>
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-format="fluid"
@@ -5695,9 +5925,9 @@ document.getElementById("breaking-newsticker").appendChild(document.getElementBy
 <footer id='gila_material_footer_wrap'>
   <div class='footer_content'>
   <b:section class='footer_widget' id='footer_widget' maxwidgets='3' name='Footer Widget' preferred='yes'>
-    <b:widget id='PageList1' locked='true' title='Information' type='PageList' version='2' visible='true'>
+    <b:widget id='PageList1' locked='true' title='Legal' type='PageList' version='2' visible='true'>
       <b:widget-settings>
-        <b:widget-setting name='pageListJson'><![CDATA[{"link1":{"href":"https://penaeducasi.blogspot.com/p/privacy-policy.html","position":3,"title":"Privacy Policy"},"link0":{"href":"https://penaeducasi.blogspot.com/p/disclaimer.html","position":2,"title":"Disclaimer"},"3690255671623247628":{"href":"https://penaeducasi.blogspot.com/p/sitemap.html","position":4,"title":"Sitemap"},"2343000955816725192":{"href":"https://penaeducasi.blogspot.com/p/terms-and-conditions.html","position":5,"title":"Terms and Conditions"},"4947475579511771826":{"href":"https://penaeducasi.blogspot.com/p/about-us.html","position":0,"title":"About Us"},"6082021252600357553":{"href":"https://penaeducasi.blogspot.com/p/contact-us.html","position":1,"title":"Contact Us"}}]]></b:widget-setting>
+        <b:widget-setting name='pageListJson'><![CDATA[{"link1":{"href":"https://penaeducasi.blogspot.com/p/contact-us.html","position":1,"title":"Contact Us"},"link0":{"href":"https://penaeducasi.blogspot.com/p/about-us.html","position":0,"title":"About Us"},"3690255671623247628":{"href":"https://penaeducasi.blogspot.com/p/sitemap.html","position":4,"title":"Sitemap"},"link4":{"href":"https://penaeducasi.blogspot.com/p/terms-and-conditions.html","position":5,"title":"Terms and Conditions"},"link3":{"href":"https://penaeducasi.blogspot.com/p/privacy-policy.html","position":3,"title":"Privacy Policy"},"link2":{"href":"https://penaeducasi.blogspot.com/p/disclaimer.html","position":2,"title":"Disclaimer"}}]]></b:widget-setting>
         <b:widget-setting name='homeTitle'>Beranda</b:widget-setting>
       </b:widget-settings>
       <b:includable id='main'>
@@ -5843,17 +6073,9 @@ Defer.dom("img.lazyload",100,"loaded",null,{rootMargin:"1px"});
 //]]>
 </script>
 <b:section class='custom_javascript' id='custom_javascript' maxwidgets='1' name='Custom JavaScript' preferred='yes'>
-  <b:widget id='HTML5' locked='true' title='Bismillahirrahmanirrahim' type='HTML' version='2' visible='true'>
+  <b:widget id='HTML5' locked='true' title='Bismillahirrahmanirrahim' type='HTML' version='2' visible='false'>
     <b:widget-settings>
-      <b:widget-setting name='content'><![CDATA[<script async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6293270434810918" crossorigin="anonymous" ></script>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-format="autorelaxed"
-     data-ad-client="ca-pub-6293270434810918"
-     data-ad-slot="5447697401"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>]]></b:widget-setting>
+      <b:widget-setting name='content'/>
     </b:widget-settings>
     <b:includable id='main'>
   <div class='widget-content'>
@@ -5872,15 +6094,18 @@ Defer.dom("img.lazyload",100,"loaded",null,{rootMargin:"1px"});
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-<!-- Yandex.RTB R-A-9374034-1 -->
-<div id='yandex_rtb_R-A-9374034-1'/>
+<script src='https://rawcdn.githack.com/Hayatul1/Pena-Edukasi/ff0b9e8b770f1c6a705fb3ef7d16feedbcdf1901/Pena%20Edukasi-lazyload@19.1.3.js'/>
 <script>
-window.yaContextCb.push(() =&gt; {
-    Ya.Context.AdvManager.render({
-        &quot;blockId&quot;: &quot;R-A-9374034-1&quot;,
-	&quot;renderTo&quot;: &quot;yandex_rtb_R-A-9374034-1&quot;
-    })
-})
+//<![CDATA[
+// Video Melayang
+var $window=$(window),$floatvideoWrap=$(".floatvideo-wrapper"),$floatvideo=$(".floatvideo"),floatvideoHeight=$floatvideo.outerHeight();$window.on("scroll",function(){$window.scrollTop()>floatvideoHeight+$floatvideoWrap.offset().top?($floatvideoWrap.height(floatvideoHeight),$floatvideo.addClass("fly")):($floatvideoWrap.height("auto"),$floatvideo.removeClass("fly"))}),setTimeout(function(){$(".video-youtube").each(function(){$(this).replaceWith('<iframe class="video-youtube loader" src="'+$(this).data("src")+'" allowfullscreen="allowfullscreen" height="70" width="100"></iframe>')})},5e3);
+//]]>
+</script>
+<script type='text/javascript'>
+var prinshm1 = window.location.toString();
+if (prinshm1.indexOf(&quot;?m=1&quot;,&quot;?m=1&quot;) &gt; 0) {
+var clean_nprinsh = prinshm1.substring(0, prinshm1.indexOf(&quot;?m=1&quot;));
+window.history.replaceState({}, document.title, clean_nprinsh);};
 </script>
 </body>--&gt;&lt;/body&gt;
-</html>
+</html><!-- SWIS Cache @ Fri, 12 Aug 2024 03:23:47 GMT (https-index-webp.html) -->
